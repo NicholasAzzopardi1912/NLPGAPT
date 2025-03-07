@@ -1,0 +1,16 @@
+/.cache
+/.conda
+/.config
+/.dotnet
+/.landscape
+/.motd_shown
+/.nv
+/.profile
+/.sudo_as_admin_successful
+/.tcshrc
+/.vscode-server
+/.wget-hsts
+/.xonshrc
+/.zshrc
+/GAPT
+/miniconda3
