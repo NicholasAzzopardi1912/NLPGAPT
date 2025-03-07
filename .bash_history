@@ -42,3 +42,6 @@ pip install spacy-lookups-data
 python -m spacy --help
 exit
 /bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+/home/nicho/miniconda3/bin/python /home/nicho/main.py
+sudo apt install python
+sudo apt install python3
