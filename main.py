@@ -7,3 +7,5 @@ dataset = load_dataset("unimelb-nlp/wikiann", "mt")
 test_dataset = dataset["test"]
 
 print(test_dataset[0])
+
+print("hello")
