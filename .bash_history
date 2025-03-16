@@ -51,3 +51,22 @@ pip install datasets
 /usr/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
 /home/nicho/miniconda3/bin/python "c:/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
 /bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+/home/nicho/miniconda3/bin/python "c:/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
+/home/nicho/miniconda3/bin/python "/mnt/c/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
+/home/nicho/miniconda3/bin/python "c:/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
+"/mnt/c/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
+/home/nicho/miniconda3/bin/python "/mnt/c/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
+python "/mnt/c/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
+/home/nicho/miniconda3/bin/python "c:/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
+/home/nicho/miniconda3/bin/python "/mnt/c/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
+pip install spacy
+/home/nicho/miniconda3/bin/python "/mnt/c/Users/nicho/OneDrive/University/Year 2/GAPT/main.py"
+git pull origin main --no-rebase
+git status
+git add 
+C:\Users\nicho\OneDrive\University\Year 2\GAPT\main.py
+git add C:\Users\nicho\OneDrive\University\Year 2\GAPT\main.py
+git add "C:\Users\nicho\OneDrive\University\Year 2\GAPT\main.py"
+/mnt/c/Users/nicho/OneDrive/University/Year\ 2/GAPT/main.py
+python /mnt/c/Users/nicho/OneDrive/University/Year\ 2/GAPT/main.py
+/usr/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
