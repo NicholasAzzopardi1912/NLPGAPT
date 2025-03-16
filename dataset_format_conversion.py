@@ -1,6 +1,7 @@
 from datasets import load_dataset
 import spacy
 from spacy.tokens import DocBin
+from spacy_transformers import TransformersLanguage
 
 dataset = load_dataset("unimelb-nlp/wikiann", "mt")
 
