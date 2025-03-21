@@ -1,14 +1,14 @@
 from datasets import load_dataset
 import spacy
 from spacy.tokens import DocBin
-from spacy_transformers import TransformersLanguage
+#from spacy_transformers import TransformersLanguage
 
 dataset = load_dataset("unimelb-nlp/wikiann", "mt")
 
 #test_dataset = dataset["test"]
 #print(test_dataset[0])
 
-#print(dataset["train"].features["ner_tags"])
+print(dataset["train"].features["ner_tags"])
 
 label_map = {0: "O", 1: "PER", 2: "PER", 3: "ORG", 4: "ORG", 5: "LOC", 6: "LOC"}
 
@@ -42,7 +42,7 @@ train_data = dataset_to_spacy_format_conversion(dataset["train"])
 valid_data = dataset_to_spacy_format_conversion(dataset["validation"])
 test_data = dataset_to_spacy_format_conversion(dataset["test"])
 
-#print(train_data[:3])
+print(train_data[:3])
 
 
 # Saving converted dataset to .spacy file format

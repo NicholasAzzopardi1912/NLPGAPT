@@ -1,0 +1,974 @@
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=ġwann O
+Ġwann bias=1.0 word.lower()=ġwann word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ann word[-2:]=nn -1:word.lower()=rindirizza +1:word.lower()=marija B-PER
+Marija bias=1.0 word.lower()=marija word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ija word[-2:]=ja -1:word.lower()=ġwann +1:word.lower()=vianney I-PER
+Vianney bias=1.0 word.lower()=vianney word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ney word[-2:]=ey -1:word.lower()=marija EOS=True I-PER
+
+Rebbieħ bias=1.0 word.lower()=rebbieħ word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ieħ word[-2:]=eħ BOS=True +1:word.lower()=tal-premju O
+tal-premju bias=1.0 word.lower()=tal-premju word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=mju word[-2:]=ju -1:word.lower()=rebbieħ +1:word.lower()=tal-għarbi O
+tal-Għarbi bias=1.0 word.lower()=tal-għarbi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=rbi word[-2:]=bi -1:word.lower()=tal-premju +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=tal-għarbi +1:word.lower()=f’lulju O
+f’Lulju bias=1.0 word.lower()=f’lulju word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=lju word[-2:]=ju -1:word.lower()=, +1:word.lower()=jitla’ O
+jitla’ bias=1.0 word.lower()=jitla’ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=la’ word[-2:]=a’ -1:word.lower()=f’lulju +1:word.lower()=ruma O
+Ruma bias=1.0 word.lower()=ruma word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=uma word[-2:]=ma -1:word.lower()=jitla’ +1:word.lower()=jissokta B-LOC
+jissokta bias=1.0 word.lower()=jissokta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=kta word[-2:]=ta -1:word.lower()=ruma +1:word.lower()=l-istudji O
+l-istudji bias=1.0 word.lower()=l-istudji word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dji word[-2:]=ji -1:word.lower()=jissokta +1:word.lower()=tiegħu O
+tiegħu bias=1.0 word.lower()=tiegħu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=għu word[-2:]=ħu -1:word.lower()=l-istudji +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=tiegħu EOS=True O
+
+Hu bias=1.0 word.lower()=hu word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Hu word[-2:]=Hu BOS=True +1:word.lower()=ħaseb O
+ħaseb bias=1.0 word.lower()=ħaseb word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=seb word[-2:]=eb -1:word.lower()=hu +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=ħaseb +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=li +1:word.lower()=wasal O
+wasal bias=1.0 word.lower()=wasal word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sal word[-2:]=al -1:word.lower()=kien +1:word.lower()=asja O
+Asja bias=1.0 word.lower()=asja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sja word[-2:]=ja -1:word.lower()=wasal +1:word.lower()=. B-LOC
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=asja EOS=True O
+
+Glen bias=1.0 word.lower()=glen word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=len word[-2:]=en BOS=True +1:word.lower()=de B-PER
+De bias=1.0 word.lower()=de word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=De word[-2:]=De -1:word.lower()=glen +1:word.lower()=boeck I-PER
+Boeck bias=1.0 word.lower()=boeck word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=eck word[-2:]=ck -1:word.lower()=de +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=boeck +1:word.lower()=nov O
+Nov bias=1.0 word.lower()=nov word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Nov word[-2:]=ov -1:word.lower()=( +1:word.lower()=2012– O
+2012– bias=1.0 word.lower()=2012– word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=12– word[-2:]=2– -1:word.lower()=nov +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=2012– EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=cercle O
+Cercle bias=1.0 word.lower()=cercle word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=cle word[-2:]=le -1:word.lower()=rindirizza +1:word.lower()=brugge B-ORG
+Brugge bias=1.0 word.lower()=brugge word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=gge word[-2:]=ge -1:word.lower()=cercle +1:word.lower()=ksv I-ORG
+KSV bias=1.0 word.lower()=ksv word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=KSV word[-2:]=SV -1:word.lower()=brugge EOS=True I-ORG
+
+Marjanu bias=1.0 word.lower()=marjanu word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=anu word[-2:]=nu BOS=True +1:word.lower()=vella B-PER
+Vella bias=1.0 word.lower()=vella word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=lla word[-2:]=la -1:word.lower()=marjanu +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=vella +1:word.lower()=1927–1988 O
+1927–1988 bias=1.0 word.lower()=1927–1988 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=988 word[-2:]=88 -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=1927–1988 EOS=True O
+
+L-istadju bias=1.0 word.lower()=l-istadju word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dju word[-2:]=ju BOS=True +1:word.lower()=finalment O
+finalment bias=1.0 word.lower()=finalment word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ent word[-2:]=nt -1:word.lower()=l-istadju +1:word.lower()=lesta O
+lesta bias=1.0 word.lower()=lesta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sta word[-2:]=ta -1:word.lower()=finalment +1:word.lower()=r-rinnovazzjoni O
+r-rinnovazzjoni bias=1.0 word.lower()=r-rinnovazzjoni word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oni word[-2:]=ni -1:word.lower()=lesta +1:word.lower()=tiegħu O
+tiegħu bias=1.0 word.lower()=tiegħu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=għu word[-2:]=ħu -1:word.lower()=r-rinnovazzjoni +1:word.lower()=kmieni O
+kmieni bias=1.0 word.lower()=kmieni word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=eni word[-2:]=ni -1:word.lower()=tiegħu +1:word.lower()=fl-2012 O
+fl-2012 bias=1.0 word.lower()=fl-2012 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=012 word[-2:]=12 -1:word.lower()=kmieni +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=fl-2012 +1:word.lower()=fejn O
+fejn bias=1.0 word.lower()=fejn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ejn word[-2:]=jn -1:word.lower()=, +1:word.lower()=13,000 O
+13,000 bias=1.0 word.lower()=13,000 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=000 word[-2:]=00 -1:word.lower()=fejn +1:word.lower()=biljetti O
+biljetti bias=1.0 word.lower()=biljetti word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tti word[-2:]=ti -1:word.lower()=13,000 +1:word.lower()=marru O
+marru bias=1.0 word.lower()=marru word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=rru word[-2:]=ru -1:word.lower()=biljetti +1:word.lower()=fuq O
+fuq bias=1.0 word.lower()=fuq word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=fuq word[-2:]=uq -1:word.lower()=marru +1:word.lower()=il-bejgħ O
+il-bejgħ bias=1.0 word.lower()=il-bejgħ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=jgħ word[-2:]=għ -1:word.lower()=fuq +1:word.lower()=għall-ewwel O
+għall-ewwel bias=1.0 word.lower()=għall-ewwel word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=wel word[-2:]=el -1:word.lower()=il-bejgħ +1:word.lower()=logħba O
+logħba bias=1.0 word.lower()=logħba word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħba word[-2:]=ba -1:word.lower()=għall-ewwel +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=logħba +1:word.lower()=saret O
+saret bias=1.0 word.lower()=saret word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ret word[-2:]=et -1:word.lower()=li +1:word.lower()=hemmhekk O
+hemmhekk bias=1.0 word.lower()=hemmhekk word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ekk word[-2:]=kk -1:word.lower()=saret +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=hemmhekk +1:word.lower()=l-interess O
+l-interess bias=1.0 word.lower()=l-interess word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ess word[-2:]=ss -1:word.lower()=u +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=l-interess +1:word.lower()=għoli O
+għoli bias=1.0 word.lower()=għoli word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oli word[-2:]=li -1:word.lower()=kien +1:word.lower()=minħabba O
+minħabba bias=1.0 word.lower()=minħabba word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=bba word[-2:]=ba -1:word.lower()=għoli +1:word.lower()=l-fatt O
+l-fatt bias=1.0 word.lower()=l-fatt word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=att word[-2:]=tt -1:word.lower()=minħabba +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=l-fatt +1:word.lower()=l-aħħar O
+l-aħħar bias=1.0 word.lower()=l-aħħar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħar word[-2:]=ar -1:word.lower()=li +1:word.lower()=logħba O
+logħba bias=1.0 word.lower()=logħba word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħba word[-2:]=ba -1:word.lower()=l-aħħar +1:word.lower()=superliga O
+Superliga bias=1.0 word.lower()=superliga word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=iga word[-2:]=ga -1:word.lower()=logħba +1:word.lower()=albaniża B-ORG
+Albaniża bias=1.0 word.lower()=albaniża word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=iża word[-2:]=ża -1:word.lower()=superliga +1:word.lower()=li I-ORG
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=albaniża +1:word.lower()=saret O
+saret bias=1.0 word.lower()=saret word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ret word[-2:]=et -1:word.lower()=li +1:word.lower()=hemm O
+hemm bias=1.0 word.lower()=hemm word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=emm word[-2:]=mm -1:word.lower()=saret +1:word.lower()=fl-2002 O
+fl-2002 bias=1.0 word.lower()=fl-2002 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=002 word[-2:]=02 -1:word.lower()=hemm +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=fl-2002 EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=gowler O
+Gowler bias=1.0 word.lower()=gowler word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ler word[-2:]=er -1:word.lower()=rindirizza +1:word.lower()=( B-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=gowler +1:word.lower()=futbol I-PER
+futbol bias=1.0 word.lower()=futbol word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=bol word[-2:]=ol -1:word.lower()=( +1:word.lower()=) I-PER
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=futbol EOS=True I-PER
+
+Kienu bias=1.0 word.lower()=kienu word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=enu word[-2:]=nu BOS=True +1:word.lower()=l-italja O
+l-Italja bias=1.0 word.lower()=l-italja word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=lja word[-2:]=ja -1:word.lower()=kienu +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=l-italja +1:word.lower()=żammew O
+żammew bias=1.0 word.lower()=żammew word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=mew word[-2:]=ew -1:word.lower()=li +1:word.lower()=it-titlu O
+it-titlu bias=1.0 word.lower()=it-titlu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tlu word[-2:]=lu -1:word.lower()=żammew +1:word.lower()=għandhom O
+għandhom bias=1.0 word.lower()=għandhom word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=hom word[-2:]=om -1:word.lower()=it-titlu +1:word.lower()=wara O
+wara bias=1.0 word.lower()=wara word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ara word[-2:]=ra -1:word.lower()=għandhom +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=wara +1:word.lower()=fil-finali O
+fil-finali bias=1.0 word.lower()=fil-finali word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ali word[-2:]=li -1:word.lower()=li +1:word.lower()=għelbu O
+għelbu bias=1.0 word.lower()=għelbu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=lbu word[-2:]=bu -1:word.lower()=fil-finali +1:word.lower()=ungerija O
+Ungerija bias=1.0 word.lower()=ungerija word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ija word[-2:]=ja -1:word.lower()=għelbu +1:word.lower()=. B-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=ungerija EOS=True O
+
+Opossum bias=1.0 word.lower()=opossum word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sum word[-2:]=um BOS=True +1:word.lower()=irqiq B-LOC
+irqiq bias=1.0 word.lower()=irqiq word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=qiq word[-2:]=iq -1:word.lower()=opossum +1:word.lower()=ta I-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=irqiq +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=pinheiro I-LOC
+Pinheiro bias=1.0 word.lower()=pinheiro word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=iro word[-2:]=ro -1:word.lower()=' EOS=True I-LOC
+
+Joseph bias=1.0 word.lower()=joseph word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=eph word[-2:]=ph BOS=True +1:word.lower()=calleia B-PER
+Calleia bias=1.0 word.lower()=calleia word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=eia word[-2:]=ia -1:word.lower()=joseph +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=calleia +1:word.lower()=1897–1975 O
+1897–1975 bias=1.0 word.lower()=1897–1975 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=975 word[-2:]=75 -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=1897–1975 +1:word.lower()=— O
+— bias=1.0 word.lower()=— word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=— word[-2:]=— -1:word.lower()=) +1:word.lower()=attur O
+attur bias=1.0 word.lower()=attur word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tur word[-2:]=ur -1:word.lower()=— +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=attur +1:word.lower()=qatta O
+qatta bias=1.0 word.lower()=qatta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tta word[-2:]=ta -1:word.lower()=li +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=qatta +1:word.lower()=l-karriera O
+l-karriera bias=1.0 word.lower()=l-karriera word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=era word[-2:]=ra -1:word.lower()=' +1:word.lower()=tiegħu O
+tiegħu bias=1.0 word.lower()=tiegħu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=għu word[-2:]=ħu -1:word.lower()=l-karriera +1:word.lower()=ikanta O
+ikanta bias=1.0 word.lower()=ikanta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nta word[-2:]=ta -1:word.lower()=tiegħu +1:word.lower()=kullimkien O
+kullimkien bias=1.0 word.lower()=kullimkien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=ikanta EOS=True O
+
+387 bias=1.0 word.lower()=387 word.isupper()=False word.istitle()=False word.isdigit()=True word[-3:]=387 word[-2:]=87 BOS=True +1:word.lower()=– O
+– bias=1.0 word.lower()=– word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=– word[-2:]=– -1:word.lower()=387 +1:word.lower()=bożnija O
+Bożnija bias=1.0 word.lower()=bożnija word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ija word[-2:]=ja -1:word.lower()=– +1:word.lower()=u B-LOC
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=bożnija +1:word.lower()=ħerżegovina I-LOC
+Ħerżegovina bias=1.0 word.lower()=ħerżegovina word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ina word[-2:]=na -1:word.lower()=u EOS=True I-LOC
+
+Polonja bias=1.0 word.lower()=polonja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nja word[-2:]=ja BOS=True +1:word.lower()=, B-LOC
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=polonja +1:word.lower()=renju O
+Renju bias=1.0 word.lower()=renju word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nju word[-2:]=ju -1:word.lower()=, +1:word.lower()=unit B-LOC
+Unit bias=1.0 word.lower()=unit word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nit word[-2:]=it -1:word.lower()=renju +1:word.lower()=u I-LOC
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=unit +1:word.lower()=ġermanja O
+Ġermanja bias=1.0 word.lower()=ġermanja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nja word[-2:]=ja -1:word.lower()=u +1:word.lower()=rċevew B-LOC
+rċevew bias=1.0 word.lower()=rċevew word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=vew word[-2:]=ew -1:word.lower()=ġermanja +1:word.lower()=ilkoll O
+ilkoll bias=1.0 word.lower()=ilkoll word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oll word[-2:]=ll -1:word.lower()=rċevew +1:word.lower()=14-il O
+14-il bias=1.0 word.lower()=14-il word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=-il word[-2:]=il -1:word.lower()=ilkoll +1:word.lower()=punt O
+punt bias=1.0 word.lower()=punt word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=unt word[-2:]=nt -1:word.lower()=14-il +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=punt EOS=True O
+
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' BOS=True +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=' +1:word.lower()=l-ewwel O
+L-Ewwel bias=1.0 word.lower()=l-ewwel word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=wel word[-2:]=el -1:word.lower()='' +1:word.lower()=diviżjoni B-ORG
+Diviżjoni bias=1.0 word.lower()=diviżjoni word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=oni word[-2:]=ni -1:word.lower()=l-ewwel +1:word.lower()=maltija I-ORG
+Maltija bias=1.0 word.lower()=maltija word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ija word[-2:]=ja -1:word.lower()=diviżjoni +1:word.lower()='' I-ORG
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=maltija +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()='' +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=' +1:word.lower()=( O
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()='' +1:word.lower()=it-tieni O
+it-tieni bias=1.0 word.lower()=it-tieni word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=eni word[-2:]=ni -1:word.lower()=( +1:word.lower()=livell[2] O
+livell[2] bias=1.0 word.lower()=livell[2] word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=[2] word[-2:]=2] -1:word.lower()=it-tieni +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=livell[2] +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=) EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=opossum O
+Opossum bias=1.0 word.lower()=opossum word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sum word[-2:]=um -1:word.lower()=rindirizza +1:word.lower()=ta B-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=opossum +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=denbu I-LOC
+denbu bias=1.0 word.lower()=denbu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nbu word[-2:]=bu -1:word.lower()=' +1:word.lower()=qasir I-LOC
+qasir bias=1.0 word.lower()=qasir word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sir word[-2:]=ir -1:word.lower()=denbu +1:word.lower()=tal-ġnub I-LOC
+tal-ġnub bias=1.0 word.lower()=tal-ġnub word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nub word[-2:]=ub -1:word.lower()=qasir +1:word.lower()=ħomor I-LOC
+ħomor bias=1.0 word.lower()=ħomor word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=mor word[-2:]=or -1:word.lower()=tal-ġnub +1:word.lower()=ta I-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=ħomor +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=nofsinhar I-LOC
+Nofsinhar bias=1.0 word.lower()=nofsinhar word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=har word[-2:]=ar -1:word.lower()=' EOS=True I-LOC
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=ludwig O
+Ludwig bias=1.0 word.lower()=ludwig word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=wig word[-2:]=ig -1:word.lower()=rindirizza +1:word.lower()=van B-PER
+van bias=1.0 word.lower()=van word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=van word[-2:]=an -1:word.lower()=ludwig +1:word.lower()=beethoven I-PER
+Beethoven bias=1.0 word.lower()=beethoven word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ven word[-2:]=en -1:word.lower()=van EOS=True I-PER
+
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' BOS=True +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=' +1:word.lower()=ċampjins O
+Ċampjins bias=1.0 word.lower()=ċampjins word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ins word[-2:]=ns -1:word.lower()='' +1:word.lower()=ewwel O
+Ewwel bias=1.0 word.lower()=ewwel word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=wel word[-2:]=el -1:word.lower()=ċampjins +1:word.lower()=diviżjoni B-ORG
+Diviżjoni bias=1.0 word.lower()=diviżjoni word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=oni word[-2:]=ni -1:word.lower()=ewwel +1:word.lower()='' I-ORG
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=diviżjoni +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()='' EOS=True O
+
+3 bias=1.0 word.lower()=3 word.isupper()=False word.istitle()=False word.isdigit()=True word[-3:]=3 word[-2:]=3 BOS=True +1:word.lower()=il-baħamas O
+Il-Baħamas bias=1.0 word.lower()=il-baħamas word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=mas word[-2:]=as -1:word.lower()=3 +1:word.lower()=għażlu O
+għażlu bias=1.0 word.lower()=għażlu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=żlu word[-2:]=lu -1:word.lower()=il-baħamas +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=għażlu +1:word.lower()=l-leg O
+l-leg bias=1.0 word.lower()=l-leg word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=leg word[-2:]=eg -1:word.lower()=li +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=l-leg +1:word.lower()=kellhom O
+kellhom bias=1.0 word.lower()=kellhom word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=hom word[-2:]=om -1:word.lower()=li +1:word.lower()=jilgħabu O
+jilgħabu bias=1.0 word.lower()=jilgħabu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=abu word[-2:]=bu -1:word.lower()=kellhom +1:word.lower()=ġewwa O
+ġewwa bias=1.0 word.lower()=ġewwa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=wwa word[-2:]=wa -1:word.lower()=jilgħabu +1:word.lower()=darhom O
+darhom bias=1.0 word.lower()=darhom word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=hom word[-2:]=om -1:word.lower()=ġewwa +1:word.lower()=tintlagħab O
+tintlagħab bias=1.0 word.lower()=tintlagħab word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħab word[-2:]=ab -1:word.lower()=darhom +1:word.lower()=ġamajka O
+Ġamajka bias=1.0 word.lower()=ġamajka word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=jka word[-2:]=ka -1:word.lower()=tintlagħab +1:word.lower()=. B-LOC
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=ġamajka EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=kf O
+KF bias=1.0 word.lower()=kf word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=KF word[-2:]=KF -1:word.lower()=rindirizza +1:word.lower()=skënderbeu B-ORG
+Skënderbeu bias=1.0 word.lower()=skënderbeu word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=beu word[-2:]=eu -1:word.lower()=kf +1:word.lower()=korçë I-ORG
+Korçë bias=1.0 word.lower()=korçë word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=rçë word[-2:]=çë -1:word.lower()=skënderbeu EOS=True I-ORG
+
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' BOS=True +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=' +1:word.lower()=kaká O
+Kaká bias=1.0 word.lower()=kaká word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=aká word[-2:]=ká -1:word.lower()='' +1:word.lower()='' B-PER
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=kaká +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()='' EOS=True O
+
+Ħames bias=1.0 word.lower()=ħames word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=mes word[-2:]=es BOS=True +1:word.lower()=snin O
+snin bias=1.0 word.lower()=snin word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nin word[-2:]=in -1:word.lower()=ħames +1:word.lower()=wara O
+wara bias=1.0 word.lower()=wara word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ara word[-2:]=ra -1:word.lower()=snin +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=wara +1:word.lower()=huwa O
+huwa bias=1.0 word.lower()=huwa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=uwa word[-2:]=wa -1:word.lower()=, +1:word.lower()=ssieħeb O
+ssieħeb bias=1.0 word.lower()=ssieħeb word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħeb word[-2:]=eb -1:word.lower()=huwa +1:word.lower()=ma O
+ma bias=1.0 word.lower()=ma word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ma word[-2:]=ma -1:word.lower()=ssieħeb +1:word.lower()=genk O
+Genk bias=1.0 word.lower()=genk word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=enk word[-2:]=nk -1:word.lower()=ma +1:word.lower()=. B-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=genk EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=wolverhampton O
+Wolverhampton bias=1.0 word.lower()=wolverhampton word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ton word[-2:]=on -1:word.lower()=rindirizza +1:word.lower()=wanderers B-ORG
+Wanderers bias=1.0 word.lower()=wanderers word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ers word[-2:]=rs -1:word.lower()=wolverhampton +1:word.lower()=fc I-ORG
+FC bias=1.0 word.lower()=fc word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=FC word[-2:]=FC -1:word.lower()=wanderers EOS=True I-ORG
+
+******Ġeneru bias=1.0 word.lower()=******ġeneru word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=eru word[-2:]=ru BOS=True +1:word.lower()=philander O
+Philander bias=1.0 word.lower()=philander word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=der word[-2:]=er -1:word.lower()=******ġeneru +1:word.lower()='' B-LOC
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=philander +1:word.lower()=( O
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()='' +1:word.lower()=brisson O
+Brisson bias=1.0 word.lower()=brisson word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=son word[-2:]=on -1:word.lower()=( +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=brisson +1:word.lower()=1762 O
+1762 bias=1.0 word.lower()=1762 word.isupper()=False word.istitle()=False word.isdigit()=True word[-3:]=762 word[-2:]=62 -1:word.lower()=, +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=1762 EOS=True O
+
+L-elezzjoni bias=1.0 word.lower()=l-elezzjoni word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oni word[-2:]=ni BOS=True +1:word.lower()=tal-1955 O
+tal-1955 bias=1.0 word.lower()=tal-1955 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=955 word[-2:]=55 -1:word.lower()=l-elezzjoni +1:word.lower()=intrebħet O
+intrebħet bias=1.0 word.lower()=intrebħet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħet word[-2:]=et -1:word.lower()=tal-1955 +1:word.lower()=partit O
+Partit bias=1.0 word.lower()=partit word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=tit word[-2:]=it -1:word.lower()=intrebħet +1:word.lower()=laburista B-ORG
+Laburista bias=1.0 word.lower()=laburista word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sta word[-2:]=ta -1:word.lower()=partit +1:word.lower()=mmexxi I-ORG
+mmexxi bias=1.0 word.lower()=mmexxi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=xxi word[-2:]=xi -1:word.lower()=laburista +1:word.lower()=minn O
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=mmexxi +1:word.lower()=dom O
+Dom bias=1.0 word.lower()=dom word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Dom word[-2:]=om -1:word.lower()=minn +1:word.lower()=mintoff B-PER
+Mintoff bias=1.0 word.lower()=mintoff word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=off word[-2:]=ff -1:word.lower()=dom +1:word.lower()=. I-PER
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=mintoff EOS=True O
+
+Mary bias=1.0 word.lower()=mary word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ary word[-2:]=ry BOS=True +1:word.lower()=meilak B-PER
+Meilak bias=1.0 word.lower()=meilak word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=lak word[-2:]=ak -1:word.lower()=mary +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=meilak +1:word.lower()=1905-1975 O
+1905-1975 bias=1.0 word.lower()=1905-1975 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=975 word[-2:]=75 -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=1905-1975 +1:word.lower()=- O
+- bias=1.0 word.lower()=- word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=- word[-2:]=- -1:word.lower()=) +1:word.lower()=poetessa O
+poetessa bias=1.0 word.lower()=poetessa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ssa word[-2:]=sa -1:word.lower()=- EOS=True O
+
+Opossum bias=1.0 word.lower()=opossum word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sum word[-2:]=um BOS=True +1:word.lower()=irqiq B-LOC
+irqiq bias=1.0 word.lower()=irqiq word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=qiq word[-2:]=iq -1:word.lower()=opossum +1:word.lower()=ta I-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=irqiq +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=panama I-LOC
+Panama bias=1.0 word.lower()=panama word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ama word[-2:]=ma -1:word.lower()=' EOS=True I-LOC
+
+Serbja bias=1.0 word.lower()=serbja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=bja word[-2:]=ja BOS=True +1:word.lower()=rebħet B-LOC
+rebħet bias=1.0 word.lower()=rebħet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħet word[-2:]=et -1:word.lower()=serbja +1:word.lower()=fl-ewwel O
+fl-ewwel bias=1.0 word.lower()=fl-ewwel word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=wel word[-2:]=el -1:word.lower()=rebħet +1:word.lower()=sena O
+sena bias=1.0 word.lower()=sena word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ena word[-2:]=na -1:word.lower()=fl-ewwel +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=sena +1:word.lower()=daħlet O
+daħlet bias=1.0 word.lower()=daħlet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=let word[-2:]=et -1:word.lower()=li +1:word.lower()=bħala O
+bħala bias=1.0 word.lower()=bħala word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ala word[-2:]=la -1:word.lower()=daħlet +1:word.lower()=pajjiż O
+pajjiż bias=1.0 word.lower()=pajjiż word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=jiż word[-2:]=iż -1:word.lower()=bħala +1:word.lower()=indipendenti O
+indipendenti bias=1.0 word.lower()=indipendenti word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nti word[-2:]=ti -1:word.lower()=pajjiż +1:word.lower()=( O
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=indipendenti +1:word.lower()=mhux O
+mhux bias=1.0 word.lower()=mhux word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=hux word[-2:]=ux -1:word.lower()=( +1:word.lower()=montenegro O
+Montenegro bias=1.0 word.lower()=montenegro word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=gro word[-2:]=ro -1:word.lower()=mhux +1:word.lower()=) B-LOC
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=montenegro +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=) +1:word.lower()=2007 O
+2007 bias=1.0 word.lower()=2007 word.isupper()=False word.istitle()=False word.isdigit()=True word[-3:]=007 word[-2:]=07 -1:word.lower()=, +1:word.lower()=. B-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=2007 EOS=True O
+
+Baqgħu bias=1.0 word.lower()=baqgħu word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=għu word[-2:]=ħu BOS=True +1:word.lower()=jtellgħu O
+jtellgħu bias=1.0 word.lower()=jtellgħu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=għu word[-2:]=ħu -1:word.lower()=baqgħu +1:word.lower()=xogħlijiet O
+xogħlijiet bias=1.0 word.lower()=xogħlijiet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iet word[-2:]=et -1:word.lower()=jtellgħu +1:word.lower()=fis-sala O
+fis-sala bias=1.0 word.lower()=fis-sala word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ala word[-2:]=la -1:word.lower()=xogħlijiet +1:word.lower()=tal-astoria O
+tal-Astoria bias=1.0 word.lower()=tal-astoria word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ria word[-2:]=ia -1:word.lower()=fis-sala +1:word.lower()=rabat O
+Rabat bias=1.0 word.lower()=rabat word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=bat word[-2:]=at -1:word.lower()=tal-astoria +1:word.lower()=. B-LOC
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=rabat EOS=True O
+
+Enriku bias=1.0 word.lower()=enriku word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=iku word[-2:]=ku BOS=True +1:word.lower()=viii B-PER
+VIII bias=1.0 word.lower()=viii word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=III word[-2:]=II -1:word.lower()=enriku +1:word.lower()=tal-ingilterra I-PER
+tal-Ingilterra bias=1.0 word.lower()=tal-ingilterra word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=rra word[-2:]=ra -1:word.lower()=viii EOS=True I-PER
+
+Il-partita bias=1.0 word.lower()=il-partita word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ita word[-2:]=ta BOS=True +1:word.lower()=kienet O
+kienet bias=1.0 word.lower()=kienet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=net word[-2:]=et -1:word.lower()=il-partita +1:word.lower()=bejn O
+bejn bias=1.0 word.lower()=bejn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ejn word[-2:]=jn -1:word.lower()=kienet +1:word.lower()=ġermanja O
+Ġermanja bias=1.0 word.lower()=ġermanja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nja word[-2:]=ja -1:word.lower()=bejn +1:word.lower()=u B-ORG
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=ġermanja +1:word.lower()=spanja O
+Spanja bias=1.0 word.lower()=spanja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nja word[-2:]=ja -1:word.lower()=u +1:word.lower()=, B-ORG
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=spanja +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=, +1:word.lower()=dan O
+dan bias=1.0 word.lower()=dan word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dan word[-2:]=an -1:word.lower()=u +1:word.lower()=tal-aħħar O
+tal-aħħar bias=1.0 word.lower()=tal-aħħar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħar word[-2:]=ar -1:word.lower()=dan +1:word.lower()=rebaħ O
+rebaħ bias=1.0 word.lower()=rebaħ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=baħ word[-2:]=aħ -1:word.lower()=tal-aħħar +1:word.lower()=1–0 O
+1–0 bias=1.0 word.lower()=1–0 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=1–0 word[-2:]=–0 -1:word.lower()=rebaħ +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=1–0 +1:word.lower()=b'gowl O
+b'gowl bias=1.0 word.lower()=b'gowl word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=owl word[-2:]=wl -1:word.lower()=, +1:word.lower()=skurjat O
+skurjat bias=1.0 word.lower()=skurjat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=jat word[-2:]=at -1:word.lower()=b'gowl +1:word.lower()=minn O
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=skurjat +1:word.lower()=fernando O
+Fernando bias=1.0 word.lower()=fernando word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ndo word[-2:]=do -1:word.lower()=minn +1:word.lower()=torres B-PER
+Torres bias=1.0 word.lower()=torres word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=res word[-2:]=es -1:word.lower()=fernando +1:word.lower()=. I-PER
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=torres EOS=True O
+
+Liebru bias=1.0 word.lower()=liebru word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=bru word[-2:]=ru BOS=True +1:word.lower()=ta B-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=liebru +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=yunnan I-LOC
+Yunnan bias=1.0 word.lower()=yunnan word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nan word[-2:]=an -1:word.lower()=' EOS=True I-LOC
+
+Libanu bias=1.0 word.lower()=libanu word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=anu word[-2:]=nu BOS=True +1:word.lower()=fil-festival B-LOC
+fil-Festival bias=1.0 word.lower()=fil-festival word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=val word[-2:]=al -1:word.lower()=libanu +1:word.lower()=tal-eurovision I-LOC
+tal-Eurovision bias=1.0 word.lower()=tal-eurovision word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ion word[-2:]=on -1:word.lower()=fil-festival EOS=True I-LOC
+
+Saħansitra bias=1.0 word.lower()=saħansitra word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=tra word[-2:]=ra BOS=True +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=saħansitra +1:word.lower()=daħal O
+daħal bias=1.0 word.lower()=daħal word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħal word[-2:]=al -1:word.lower()=kien +1:word.lower()=f’koalizzjoni O
+f’koalizzjoni bias=1.0 word.lower()=f’koalizzjoni word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oni word[-2:]=ni -1:word.lower()=daħal +1:word.lower()=miegħu O
+miegħu bias=1.0 word.lower()=miegħu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=għu word[-2:]=ħu -1:word.lower()=f’koalizzjoni +1:word.lower()=iżda O
+iżda bias=1.0 word.lower()=iżda word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=żda word[-2:]=da -1:word.lower()=miegħu +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=iżda +1:word.lower()=mgħoddi O
+mgħoddi bias=1.0 word.lower()=mgħoddi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ddi word[-2:]=di -1:word.lower()=kien +1:word.lower()=biż-żmien O
+biż-żmien bias=1.0 word.lower()=biż-żmien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=mgħoddi +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=biż-żmien +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=u +1:word.lower()=għalhekk O
+għalhekk bias=1.0 word.lower()=għalhekk word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ekk word[-2:]=kk -1:word.lower()=, +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=għalhekk +1:word.lower()=ittieħdet O
+ittieħdet bias=1.0 word.lower()=ittieħdet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=det word[-2:]=et -1:word.lower()=, +1:word.lower()=deċiżjoni O
+deċiżjoni bias=1.0 word.lower()=deċiżjoni word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oni word[-2:]=ni -1:word.lower()=ittieħdet +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=deċiżjoni +1:word.lower()=jsir O
+jsir bias=1.0 word.lower()=jsir word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sir word[-2:]=ir -1:word.lower()=li +1:word.lower()=ftehim O
+ftehim bias=1.0 word.lower()=ftehim word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=him word[-2:]=im -1:word.lower()=jsir +1:word.lower()=ma’ O
+ma’ bias=1.0 word.lower()=ma’ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ma’ word[-2:]=a’ -1:word.lower()=ftehim +1:word.lower()=gerald O
+Gerald bias=1.0 word.lower()=gerald word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ald word[-2:]=ld -1:word.lower()=ma’ +1:word.lower()=strickland B-PER
+Strickland bias=1.0 word.lower()=strickland word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=and word[-2:]=nd -1:word.lower()=gerald +1:word.lower()=u I-PER
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=strickland +1:word.lower()=sħabu O
+sħabu bias=1.0 word.lower()=sħabu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=abu word[-2:]=bu -1:word.lower()=u +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=sħabu EOS=True O
+
+Il-ftit bias=1.0 word.lower()=il-ftit word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tit word[-2:]=it BOS=True +1:word.lower()=drabi O
+drabi bias=1.0 word.lower()=drabi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=abi word[-2:]=bi -1:word.lower()=il-ftit +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=drabi +1:word.lower()=deher O
+deher bias=1.0 word.lower()=deher word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=her word[-2:]=er -1:word.lower()=li +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=deher +1:word.lower()=ħafna O
+ħafna bias=1.0 word.lower()=ħafna word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=fna word[-2:]=na -1:word.lower()=, +1:word.lower()=minnhom O
+minnhom bias=1.0 word.lower()=minnhom word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=hom word[-2:]=om -1:word.lower()=ħafna +1:word.lower()=għamilhom O
+għamilhom bias=1.0 word.lower()=għamilhom word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=hom word[-2:]=om -1:word.lower()=minnhom +1:word.lower()=fil-preżenza O
+fil-preżenza bias=1.0 word.lower()=fil-preżenza word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nza word[-2:]=za -1:word.lower()=għamilhom +1:word.lower()=tas-suċċessur O
+tas-suċċessur bias=1.0 word.lower()=tas-suċċessur word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sur word[-2:]=ur -1:word.lower()=fil-preżenza +1:word.lower()=tiegħu O
+tiegħu bias=1.0 word.lower()=tiegħu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=għu word[-2:]=ħu -1:word.lower()=tas-suċċessur +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=tiegħu +1:word.lower()=papa O
+Papa bias=1.0 word.lower()=papa word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=apa word[-2:]=pa -1:word.lower()=, +1:word.lower()=franġisku B-PER
+Franġisku bias=1.0 word.lower()=franġisku word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sku word[-2:]=ku -1:word.lower()=papa +1:word.lower()=, I-PER
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=franġisku +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=, +1:word.lower()=qatt O
+qatt bias=1.0 word.lower()=qatt word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=att word[-2:]=tt -1:word.lower()=u +1:word.lower()=ma O
+ma bias=1.0 word.lower()=ma word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ma word[-2:]=ma -1:word.lower()=qatt +1:word.lower()=esprima O
+esprima bias=1.0 word.lower()=esprima word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ima word[-2:]=ma -1:word.lower()=ma +1:word.lower()=ideat O
+ideat bias=1.0 word.lower()=ideat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=eat word[-2:]=at -1:word.lower()=esprima +1:word.lower()=kuntrarji O
+kuntrarji bias=1.0 word.lower()=kuntrarji word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=rji word[-2:]=ji -1:word.lower()=ideat +1:word.lower()=għal O
+għal bias=1.0 word.lower()=għal word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħal word[-2:]=al -1:word.lower()=kuntrarji +1:word.lower()=tiegħu O
+tiegħu bias=1.0 word.lower()=tiegħu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=għu word[-2:]=ħu -1:word.lower()=għal +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=tiegħu EOS=True O
+
+Albert bias=1.0 word.lower()=albert word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ert word[-2:]=rt BOS=True +1:word.lower()=hyzler B-PER
+Hyzler bias=1.0 word.lower()=hyzler word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ler word[-2:]=er -1:word.lower()=albert +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=hyzler +1:word.lower()=aġent O
+aġent bias=1.0 word.lower()=aġent word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ent word[-2:]=nt -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=aġent EOS=True O
+
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' BOS=True +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=' +1:word.lower()=premier O
+Premier bias=1.0 word.lower()=premier word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ier word[-2:]=er -1:word.lower()='' +1:word.lower()=league B-ORG
+League bias=1.0 word.lower()=league word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=gue word[-2:]=ue -1:word.lower()=premier +1:word.lower()=malti I-ORG
+Malti bias=1.0 word.lower()=malti word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=lti word[-2:]=ti -1:word.lower()=league +1:word.lower()='' I-ORG
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=malti +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()='' EOS=True O
+
+Bejn bias=1.0 word.lower()=bejn word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ejn word[-2:]=jn BOS=True +1:word.lower()=l-1996 O
+l-1996 bias=1.0 word.lower()=l-1996 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=996 word[-2:]=96 -1:word.lower()=bejn +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=l-1996 +1:word.lower()=l-1998 O
+l-1998 bias=1.0 word.lower()=l-1998 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=998 word[-2:]=98 -1:word.lower()=u +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=l-1998 +1:word.lower()=il-konsulent O
+il-konsulent bias=1.0 word.lower()=il-konsulent word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ent word[-2:]=nt -1:word.lower()=kien +1:word.lower()=tal-prim O
+tal-Prim bias=1.0 word.lower()=tal-prim word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=rim word[-2:]=im -1:word.lower()=il-konsulent +1:word.lower()=ministru O
+Ministru bias=1.0 word.lower()=ministru word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=tru word[-2:]=ru -1:word.lower()=tal-prim +1:word.lower()=( O
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=ministru +1:word.lower()=dr. O
+Dr. bias=1.0 word.lower()=dr. word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Dr. word[-2:]=r. -1:word.lower()=( +1:word.lower()=alfred B-PER
+Alfred bias=1.0 word.lower()=alfred word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=red word[-2:]=ed -1:word.lower()=dr. +1:word.lower()=sant I-PER
+Sant bias=1.0 word.lower()=sant word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ant word[-2:]=nt -1:word.lower()=alfred +1:word.lower()=) I-PER
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=sant +1:word.lower()=dwar O
+dwar bias=1.0 word.lower()=dwar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=war word[-2:]=ar -1:word.lower()=) +1:word.lower()=il-kultura O
+il-kultura bias=1.0 word.lower()=il-kultura word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ura word[-2:]=ra -1:word.lower()=dwar +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=il-kultura EOS=True O
+
+Hemmhekk bias=1.0 word.lower()=hemmhekk word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ekk word[-2:]=kk BOS=True +1:word.lower()=hu O
+hu bias=1.0 word.lower()=hu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=hu word[-2:]=hu -1:word.lower()=hemmhekk +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=hu +1:word.lower()=ġie O
+ġie bias=1.0 word.lower()=ġie word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ġie word[-2:]=ie -1:word.lower()=kien +1:word.lower()=skopert O
+skopert bias=1.0 word.lower()=skopert word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ert word[-2:]=rt -1:word.lower()=ġie +1:word.lower()=minn O
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=skopert +1:word.lower()=são O
+São bias=1.0 word.lower()=são word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=São word[-2:]=ão -1:word.lower()=minn +1:word.lower()=paulo B-ORG
+Paulo bias=1.0 word.lower()=paulo word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ulo word[-2:]=lo -1:word.lower()=são +1:word.lower()=li I-ORG
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=paulo +1:word.lower()=offrielu O
+offrielu bias=1.0 word.lower()=offrielu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=elu word[-2:]=lu -1:word.lower()=li +1:word.lower()=kuntratt O
+kuntratt bias=1.0 word.lower()=kuntratt word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=att word[-2:]=tt -1:word.lower()=offrielu +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=kuntratt EOS=True O
+
+Il-kampjonat bias=1.0 word.lower()=il-kampjonat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nat word[-2:]=at BOS=True +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=il-kampjonat +1:word.lower()=imwettaq O
+imwettaq bias=1.0 word.lower()=imwettaq word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=taq word[-2:]=aq -1:word.lower()=kien +1:word.lower()=f'4 O
+f'4 bias=1.0 word.lower()=f'4 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=f'4 word[-2:]='4 -1:word.lower()=imwettaq +1:word.lower()=timijiet O
+timijiet bias=1.0 word.lower()=timijiet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iet word[-2:]=et -1:word.lower()=f'4 +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=timijiet +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=, +1:word.lower()=floriana O
+Floriana bias=1.0 word.lower()=floriana word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ana word[-2:]=na -1:word.lower()=u +1:word.lower()=kienu B-ORG
+kienu bias=1.0 word.lower()=kienu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=enu word[-2:]=nu -1:word.lower()=floriana +1:word.lower()=rebbieħa O
+rebbieħa bias=1.0 word.lower()=rebbieħa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=eħa word[-2:]=ħa -1:word.lower()=kienu +1:word.lower()=tal-kampjonat O
+tal-kampjonat bias=1.0 word.lower()=tal-kampjonat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nat word[-2:]=at -1:word.lower()=rebbieħa +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=tal-kampjonat EOS=True O
+
+Iż- bias=1.0 word.lower()=iż- word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Iż- word[-2:]=ż- BOS=True +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=iż- +1:word.lower()='żambja O
+'Żambja bias=1.0 word.lower()='żambja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=bja word[-2:]=ja -1:word.lower()='' +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()='żambja +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()='' +1:word.lower()=hi O
+hi bias=1.0 word.lower()=hi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=hi word[-2:]=hi -1:word.lower()=' +1:word.lower()=nazzjon O
+nazzjon bias=1.0 word.lower()=nazzjon word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=jon word[-2:]=on -1:word.lower()=hi +1:word.lower()=afrika O
+Afrika bias=1.0 word.lower()=afrika word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ika word[-2:]=ka -1:word.lower()=nazzjon +1:word.lower()=. B-LOC
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=afrika EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=tim O
+Tim bias=1.0 word.lower()=tim word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Tim word[-2:]=im -1:word.lower()=rindirizza +1:word.lower()=nazzjonali B-ORG
+nazzjonali bias=1.0 word.lower()=nazzjonali word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ali word[-2:]=li -1:word.lower()=tim +1:word.lower()=tal-futbol I-ORG
+tal-futbol bias=1.0 word.lower()=tal-futbol word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=bol word[-2:]=ol -1:word.lower()=nazzjonali +1:word.lower()=ta I-ORG
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=tal-futbol +1:word.lower()=' I-ORG
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=san I-ORG
+San bias=1.0 word.lower()=san word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=San word[-2:]=an -1:word.lower()=' +1:word.lower()=marino I-ORG
+Marino bias=1.0 word.lower()=marino word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ino word[-2:]=no -1:word.lower()=san EOS=True I-ORG
+
+Ġużè bias=1.0 word.lower()=ġużè word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=użè word[-2:]=żè BOS=True +1:word.lower()=aquilina B-PER
+Aquilina bias=1.0 word.lower()=aquilina word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ina word[-2:]=na -1:word.lower()=ġużè +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=aquilina +1:word.lower()=1911-1997 O
+1911-1997 bias=1.0 word.lower()=1911-1997 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=997 word[-2:]=97 -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=1911-1997 EOS=True O
+
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' BOS=True +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=' +1:word.lower()=fc O
+FC bias=1.0 word.lower()=fc word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=FC word[-2:]=FC -1:word.lower()='' +1:word.lower()=barcelona B-ORG
+Barcelona bias=1.0 word.lower()=barcelona word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ona word[-2:]=na -1:word.lower()=fc +1:word.lower()='' I-ORG
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=barcelona +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()='' +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=' +1:word.lower()='it-tielet O
+'It-tielet bias=1.0 word.lower()='it-tielet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=let word[-2:]=et -1:word.lower()='' +1:word.lower()=titlu O
+titlu bias=1.0 word.lower()=titlu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tlu word[-2:]=lu -1:word.lower()='it-tielet +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=titlu +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()='' EOS=True O
+
+Il-kampjonat bias=1.0 word.lower()=il-kampjonat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nat word[-2:]=at BOS=True +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=il-kampjonat +1:word.lower()=imwettaq O
+imwettaq bias=1.0 word.lower()=imwettaq word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=taq word[-2:]=aq -1:word.lower()=kien +1:word.lower()=f'4 O
+f'4 bias=1.0 word.lower()=f'4 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=f'4 word[-2:]='4 -1:word.lower()=imwettaq +1:word.lower()=timijiet O
+timijiet bias=1.0 word.lower()=timijiet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iet word[-2:]=et -1:word.lower()=f'4 +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=timijiet +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=, +1:word.lower()=floriana O
+Floriana bias=1.0 word.lower()=floriana word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ana word[-2:]=na -1:word.lower()=u +1:word.lower()=kienu B-ORG
+kienu bias=1.0 word.lower()=kienu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=enu word[-2:]=nu -1:word.lower()=floriana +1:word.lower()=rebbieħa O
+rebbieħa bias=1.0 word.lower()=rebbieħa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=eħa word[-2:]=ħa -1:word.lower()=kienu +1:word.lower()=tal-kampjonat O
+tal-kampjonat bias=1.0 word.lower()=tal-kampjonat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nat word[-2:]=at -1:word.lower()=rebbieħa +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=tal-kampjonat EOS=True O
+
+Carlos bias=1.0 word.lower()=carlos word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=los word[-2:]=os BOS=True +1:word.lower()=eugênio B-PER
+Eugênio bias=1.0 word.lower()=eugênio word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nio word[-2:]=io -1:word.lower()=carlos +1:word.lower()=simon I-PER
+Simon bias=1.0 word.lower()=simon word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=mon word[-2:]=on -1:word.lower()=eugênio EOS=True I-PER
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=opossum O
+Opossum bias=1.0 word.lower()=opossum word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sum word[-2:]=um -1:word.lower()=rindirizza +1:word.lower()=ta B-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=opossum +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=denbu I-LOC
+denbu bias=1.0 word.lower()=denbu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nbu word[-2:]=bu -1:word.lower()=' +1:word.lower()=qasir I-LOC
+qasir bias=1.0 word.lower()=qasir word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sir word[-2:]=ir -1:word.lower()=denbu +1:word.lower()=tal-perù I-LOC
+tal-Perù bias=1.0 word.lower()=tal-perù word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=erù word[-2:]=rù -1:word.lower()=qasir EOS=True I-LOC
+
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' BOS=True +1:word.lower()=it-tnax-il O
+It-Tnax-il bias=1.0 word.lower()=it-tnax-il word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=-il word[-2:]=il -1:word.lower()='' +1:word.lower()=lejl O
+Lejl bias=1.0 word.lower()=lejl word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ejl word[-2:]=jl -1:word.lower()=it-tnax-il +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=lejl +1:word.lower()=( O
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()='' +1:word.lower()=william O
+William bias=1.0 word.lower()=william word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=iam word[-2:]=am -1:word.lower()=( +1:word.lower()=shakespeare B-PER
+Shakespeare bias=1.0 word.lower()=shakespeare word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=are word[-2:]=re -1:word.lower()=william +1:word.lower()=) I-PER
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=shakespeare EOS=True O
+
+St. bias=1.0 word.lower()=st. word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=St. word[-2:]=t. BOS=True +1:word.lower()=lawrence B-ORG
+Lawrence bias=1.0 word.lower()=lawrence word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nce word[-2:]=ce -1:word.lower()=st. +1:word.lower()=spurs I-ORG
+Spurs bias=1.0 word.lower()=spurs word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=urs word[-2:]=rs -1:word.lower()=lawrence +1:word.lower()=f.c I-ORG
+F.C bias=1.0 word.lower()=f.c word.isupper()=True word.istitle()=True word.isdigit()=False word[-3:]=F.C word[-2:]=.C -1:word.lower()=spurs +1:word.lower()=. I-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=f.c EOS=True I-ORG
+
+Gżejjer bias=1.0 word.lower()=gżejjer word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=jer word[-2:]=er BOS=True +1:word.lower()=ta B-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=gżejjer +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=san I-LOC
+San bias=1.0 word.lower()=san word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=San word[-2:]=an -1:word.lower()=' +1:word.lower()=pawl I-LOC
+Pawl bias=1.0 word.lower()=pawl word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=awl word[-2:]=wl -1:word.lower()=san +1:word.lower()=/ I-LOC
+/ bias=1.0 word.lower()=/ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=/ word[-2:]=/ -1:word.lower()=pawl +1:word.lower()=selmunett O
+Selmunett bias=1.0 word.lower()=selmunett word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ett word[-2:]=tt -1:word.lower()=/ EOS=True O
+
+Edwin bias=1.0 word.lower()=edwin word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=win word[-2:]=in BOS=True +1:word.lower()=van B-PER
+van bias=1.0 word.lower()=van word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=van word[-2:]=an -1:word.lower()=edwin +1:word.lower()=der I-PER
+der bias=1.0 word.lower()=der word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=der word[-2:]=er -1:word.lower()=van +1:word.lower()=sar I-PER
+Sar bias=1.0 word.lower()=sar word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Sar word[-2:]=ar -1:word.lower()=der EOS=True I-PER
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=otto O
+Otto bias=1.0 word.lower()=otto word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=tto word[-2:]=to -1:word.lower()=rindirizza +1:word.lower()=von B-PER
+von bias=1.0 word.lower()=von word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=von word[-2:]=on -1:word.lower()=otto +1:word.lower()=bismarck I-PER
+Bismarck bias=1.0 word.lower()=bismarck word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=rck word[-2:]=ck -1:word.lower()=von EOS=True I-PER
+
+Fenek bias=1.0 word.lower()=fenek word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nek word[-2:]=ek BOS=True +1:word.lower()=ta B-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=fenek +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=amami I-LOC
+Amami bias=1.0 word.lower()=amami word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ami word[-2:]=mi -1:word.lower()=' EOS=True I-LOC
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=ilarju O
+Ilarju bias=1.0 word.lower()=ilarju word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=rju word[-2:]=ju -1:word.lower()=rindirizza +1:word.lower()=ta B-PER
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=ilarju +1:word.lower()=' I-PER
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=poitiers I-PER
+Poitiers bias=1.0 word.lower()=poitiers word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ers word[-2:]=rs -1:word.lower()=' EOS=True I-PER
+
+Bħalissa bias=1.0 word.lower()=bħalissa word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ssa word[-2:]=sa BOS=True +1:word.lower()=huwa O
+huwa bias=1.0 word.lower()=huwa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=uwa word[-2:]=wa -1:word.lower()=bħalissa +1:word.lower()=jilgħab O
+jilgħab bias=1.0 word.lower()=jilgħab word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħab word[-2:]=ab -1:word.lower()=huwa +1:word.lower()=tim O
+tim bias=1.0 word.lower()=tim word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tim word[-2:]=im -1:word.lower()=jilgħab +1:word.lower()=nazzjonali B-ORG
+nazzjonali bias=1.0 word.lower()=nazzjonali word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ali word[-2:]=li -1:word.lower()=tim +1:word.lower()=malti I-ORG
+Malti bias=1.0 word.lower()=malti word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=lti word[-2:]=ti -1:word.lower()=nazzjonali +1:word.lower()=tal-u19 I-ORG
+tal-U19 bias=1.0 word.lower()=tal-u19 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=U19 word[-2:]=19 -1:word.lower()=malti +1:word.lower()=. I-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=tal-u19 EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=uefa O
+UEFA bias=1.0 word.lower()=uefa word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=EFA word[-2:]=FA -1:word.lower()=rindirizza +1:word.lower()=champions B-ORG
+Champions bias=1.0 word.lower()=champions word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ons word[-2:]=ns -1:word.lower()=uefa +1:word.lower()=league I-ORG
+League bias=1.0 word.lower()=league word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=gue word[-2:]=ue -1:word.lower()=champions +1:word.lower()=2007–08 I-ORG
+2007–08 bias=1.0 word.lower()=2007–08 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=–08 word[-2:]=08 -1:word.lower()=league EOS=True I-ORG
+
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( BOS=True +1:word.lower()=bejn O
+bejn bias=1.0 word.lower()=bejn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ejn word[-2:]=jn -1:word.lower()=( +1:word.lower()=afrika O
+Afrika bias=1.0 word.lower()=afrika word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ika word[-2:]=ka -1:word.lower()=bejn +1:word.lower()=t'isfel B-LOC
+t'Isfel bias=1.0 word.lower()=t'isfel word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=fel word[-2:]=el -1:word.lower()=afrika +1:word.lower()=u I-LOC
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=t'isfel +1:word.lower()=możambik O
+Możambik bias=1.0 word.lower()=możambik word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=bik word[-2:]=ik -1:word.lower()=u +1:word.lower()=) B-LOC
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=możambik EOS=True O
+
+Isaac bias=1.0 word.lower()=isaac word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=aac word[-2:]=ac BOS=True +1:word.lower()=newton B-PER
+Newton bias=1.0 word.lower()=newton word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ton word[-2:]=on -1:word.lower()=isaac +1:word.lower()=ukoll I-PER
+ukoll bias=1.0 word.lower()=ukoll word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oll word[-2:]=ll -1:word.lower()=newton +1:word.lower()=studja O
+studja bias=1.0 word.lower()=studja word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dja word[-2:]=ja -1:word.lower()=ukoll +1:word.lower()=l-kometi O
+l-kometi bias=1.0 word.lower()=l-kometi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=eti word[-2:]=ti -1:word.lower()=studja +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=l-kometi EOS=True O
+
+Pika bias=1.0 word.lower()=pika word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ika word[-2:]=ka BOS=True +1:word.lower()=ta B-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=pika +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=thomas I-LOC
+Thomas bias=1.0 word.lower()=thomas word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=mas word[-2:]=as -1:word.lower()=' EOS=True I-LOC
+
+Billi bias=1.0 word.lower()=billi word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=lli word[-2:]=li BOS=True +1:word.lower()=ħass O
+ħass bias=1.0 word.lower()=ħass word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ass word[-2:]=ss -1:word.lower()=billi +1:word.lower()=il-vokazzjoni O
+il-vokazzjoni bias=1.0 word.lower()=il-vokazzjoni word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oni word[-2:]=ni -1:word.lower()=ħass +1:word.lower()=biex O
+biex bias=1.0 word.lower()=biex word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iex word[-2:]=ex -1:word.lower()=il-vokazzjoni +1:word.lower()=isir O
+isir bias=1.0 word.lower()=isir word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sir word[-2:]=ir -1:word.lower()=biex +1:word.lower()=qassis O
+qassis bias=1.0 word.lower()=qassis word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sis word[-2:]=is -1:word.lower()=isir +1:word.lower()=mar O
+mar bias=1.0 word.lower()=mar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=mar word[-2:]=ar -1:word.lower()=qassis +1:word.lower()=ruma O
+Ruma bias=1.0 word.lower()=ruma word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=uma word[-2:]=ma -1:word.lower()=mar +1:word.lower()=biex B-LOC
+biex bias=1.0 word.lower()=biex word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iex word[-2:]=ex -1:word.lower()=ruma +1:word.lower()=ikompli O
+ikompli bias=1.0 word.lower()=ikompli word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=pli word[-2:]=li -1:word.lower()=biex +1:word.lower()=jistudja O
+jistudja bias=1.0 word.lower()=jistudja word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dja word[-2:]=ja -1:word.lower()=ikompli +1:word.lower()=fl-università O
+fl-Università bias=1.0 word.lower()=fl-università word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ità word[-2:]=tà -1:word.lower()=jistudja +1:word.lower()=gregorjana O
+Gregorjana bias=1.0 word.lower()=gregorjana word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ana word[-2:]=na -1:word.lower()=fl-università +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=gregorjana EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=opossum O
+Opossum bias=1.0 word.lower()=opossum word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sum word[-2:]=um -1:word.lower()=rindirizza +1:word.lower()=bugeddum B-LOC
+bugeddum bias=1.0 word.lower()=bugeddum word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dum word[-2:]=um -1:word.lower()=opossum +1:word.lower()=peruvjan I-LOC
+Peruvjan bias=1.0 word.lower()=peruvjan word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=jan word[-2:]=an -1:word.lower()=bugeddum EOS=True I-LOC
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=fc O
+FC bias=1.0 word.lower()=fc word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=FC word[-2:]=FC -1:word.lower()=rindirizza +1:word.lower()=admira B-ORG
+Admira bias=1.0 word.lower()=admira word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ira word[-2:]=ra -1:word.lower()=fc +1:word.lower()=wacker I-ORG
+Wacker bias=1.0 word.lower()=wacker word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ker word[-2:]=er -1:word.lower()=admira +1:word.lower()=mödling I-ORG
+Mödling bias=1.0 word.lower()=mödling word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ing word[-2:]=ng -1:word.lower()=wacker EOS=True I-ORG
+
+Huwa bias=1.0 word.lower()=huwa word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=uwa word[-2:]=wa BOS=True +1:word.lower()=kkowċja O
+kkowċja bias=1.0 word.lower()=kkowċja word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ċja word[-2:]=ja -1:word.lower()=huwa +1:word.lower()=bosta O
+bosta bias=1.0 word.lower()=bosta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sta word[-2:]=ta -1:word.lower()=kkowċja +1:word.lower()=timijiet O
+timijiet bias=1.0 word.lower()=timijiet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iet word[-2:]=et -1:word.lower()=bosta +1:word.lower()=speċjalment O
+speċjalment bias=1.0 word.lower()=speċjalment word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ent word[-2:]=nt -1:word.lower()=timijiet +1:word.lower()=tim O
+Tim bias=1.0 word.lower()=tim word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Tim word[-2:]=im -1:word.lower()=speċjalment +1:word.lower()=nazzjonali B-ORG
+nazzjonali bias=1.0 word.lower()=nazzjonali word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ali word[-2:]=li -1:word.lower()=tim +1:word.lower()=tal-eġittu I-ORG
+tal-Eġittu bias=1.0 word.lower()=tal-eġittu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ttu word[-2:]=tu -1:word.lower()=nazzjonali +1:word.lower()=. I-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=tal-eġittu EOS=True O
+
+Lorenzo bias=1.0 word.lower()=lorenzo word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nzo word[-2:]=zo BOS=True +1:word.lower()=staelens B-PER
+Staelens bias=1.0 word.lower()=staelens word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ens word[-2:]=ns -1:word.lower()=lorenzo +1:word.lower()='' I-PER
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=staelens +1:word.lower()=( O
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()='' +1:word.lower()=provviżorju O
+provviżorju bias=1.0 word.lower()=provviżorju word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=rju word[-2:]=ju -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=provviżorju +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=) +1:word.lower()=( O
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()='' +1:word.lower()=ott O
+Ott bias=1.0 word.lower()=ott word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Ott word[-2:]=tt -1:word.lower()=( +1:word.lower()=2012– O
+2012– bias=1.0 word.lower()=2012– word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=12– word[-2:]=2– -1:word.lower()=ott +1:word.lower()=? O
+? bias=1.0 word.lower()=? word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=? word[-2:]=? -1:word.lower()=2012– +1:word.lower()=? O
+? bias=1.0 word.lower()=? word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=? word[-2:]=? -1:word.lower()=? +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=? EOS=True O
+
+Kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ien word[-2:]=en BOS=True +1:word.lower()=fl-1996 O
+fl-1996 bias=1.0 word.lower()=fl-1996 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=996 word[-2:]=96 -1:word.lower()=kien +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=fl-1996 +1:word.lower()=huwa O
+huwa bias=1.0 word.lower()=huwa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=uwa word[-2:]=wa -1:word.lower()=li +1:word.lower()=nħatar O
+nħatar bias=1.0 word.lower()=nħatar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tar word[-2:]=ar -1:word.lower()=huwa +1:word.lower()=ministru O
+Ministru bias=1.0 word.lower()=ministru word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=tru word[-2:]=ru -1:word.lower()=nħatar +1:word.lower()=tat-trasport O
+tat-Trasport bias=1.0 word.lower()=tat-trasport word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ort word[-2:]=rt -1:word.lower()=ministru +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=tat-trasport +1:word.lower()=l-portijiet O
+l-Portijiet bias=1.0 word.lower()=l-portijiet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iet word[-2:]=et -1:word.lower()=u +1:word.lower()=fil-gvern O
+fil-gvern bias=1.0 word.lower()=fil-gvern word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ern word[-2:]=rn -1:word.lower()=l-portijiet +1:word.lower()=immexxi O
+immexxi bias=1.0 word.lower()=immexxi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=xxi word[-2:]=xi -1:word.lower()=fil-gvern +1:word.lower()=minn O
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=immexxi +1:word.lower()=alfred O
+Alfred bias=1.0 word.lower()=alfred word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=red word[-2:]=ed -1:word.lower()=minn +1:word.lower()=sant B-PER
+Sant bias=1.0 word.lower()=sant word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ant word[-2:]=nt -1:word.lower()=alfred +1:word.lower()=. I-PER
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=sant EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=tim O
+Tim bias=1.0 word.lower()=tim word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Tim word[-2:]=im -1:word.lower()=rindirizza +1:word.lower()=nazzjonali B-ORG
+nazzjonali bias=1.0 word.lower()=nazzjonali word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ali word[-2:]=li -1:word.lower()=tim +1:word.lower()=tal-futbol I-ORG
+tal-futbol bias=1.0 word.lower()=tal-futbol word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=bol word[-2:]=ol -1:word.lower()=nazzjonali +1:word.lower()=tar-russja I-ORG
+tar-Russja bias=1.0 word.lower()=tar-russja word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sja word[-2:]=ja -1:word.lower()=tal-futbol EOS=True I-ORG
+
+Luqa bias=1.0 word.lower()=luqa word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=uqa word[-2:]=qa BOS=True +1:word.lower()=st. B-ORG
+St. bias=1.0 word.lower()=st. word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=St. word[-2:]=t. -1:word.lower()=luqa +1:word.lower()=andrew I-ORG
+Andrew bias=1.0 word.lower()=andrew word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=rew word[-2:]=ew -1:word.lower()=st. +1:word.lower()='s I-ORG
+'s bias=1.0 word.lower()='s word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='s word[-2:]='s -1:word.lower()=andrew EOS=True I-ORG
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=sv O
+SV bias=1.0 word.lower()=sv word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=SV word[-2:]=SV -1:word.lower()=rindirizza +1:word.lower()=zulte B-ORG
+Zulte bias=1.0 word.lower()=zulte word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=lte word[-2:]=te -1:word.lower()=sv +1:word.lower()=waregem I-ORG
+Waregem bias=1.0 word.lower()=waregem word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=gem word[-2:]=em -1:word.lower()=zulte EOS=True I-ORG
+
+Dun bias=1.0 word.lower()=dun word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Dun word[-2:]=un BOS=True +1:word.lower()=karm B-PER
+Karm bias=1.0 word.lower()=karm word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=arm word[-2:]=rm -1:word.lower()=dun +1:word.lower()=psaila I-PER
+Psaila bias=1.0 word.lower()=psaila word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ila word[-2:]=la -1:word.lower()=karm +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=psaila +1:word.lower()=1871–1961 O
+1871–1961 bias=1.0 word.lower()=1871–1961 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=961 word[-2:]=61 -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=1871–1961 EOS=True O
+
+It-turnew bias=1.0 word.lower()=it-turnew word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=new word[-2:]=ew BOS=True +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=it-turnew +1:word.lower()=ospitat O
+ospitat bias=1.0 word.lower()=ospitat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tat word[-2:]=at -1:word.lower()=kien +1:word.lower()=minn O
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=ospitat +1:word.lower()=nouvelle O
+Nouvelle bias=1.0 word.lower()=nouvelle word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=lle word[-2:]=le -1:word.lower()=minn +1:word.lower()=fédération-board B-ORG
+Fédération-Board bias=1.0 word.lower()=fédération-board word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ard word[-2:]=rd -1:word.lower()=nouvelle +1:word.lower()=. I-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=fédération-board EOS=True O
+
+Wara bias=1.0 word.lower()=wara word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ara word[-2:]=ra BOS=True +1:word.lower()=huwa O
+huwa bias=1.0 word.lower()=huwa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=uwa word[-2:]=wa -1:word.lower()=wara +1:word.lower()=mar O
+mar bias=1.0 word.lower()=mar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=mar word[-2:]=ar -1:word.lower()=huwa +1:word.lower()=ma O
+ma bias=1.0 word.lower()=ma word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ma word[-2:]=ma -1:word.lower()=mar +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ma +1:word.lower()=melita O
+Melita bias=1.0 word.lower()=melita word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ita word[-2:]=ta -1:word.lower()=' +1:word.lower()=, B-ORG
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=melita +1:word.lower()=fl-istaġun O
+fl-istaġun bias=1.0 word.lower()=fl-istaġun word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ġun word[-2:]=un -1:word.lower()=, +1:word.lower()=2004-2005 O
+2004-2005 bias=1.0 word.lower()=2004-2005 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=005 word[-2:]=05 -1:word.lower()=fl-istaġun +1:word.lower()=huwa O
+huwa bias=1.0 word.lower()=huwa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=uwa word[-2:]=wa -1:word.lower()=2004-2005 +1:word.lower()=ngħaqad O
+ngħaqad bias=1.0 word.lower()=ngħaqad word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=qad word[-2:]=ad -1:word.lower()=huwa +1:word.lower()=ma O
+ma bias=1.0 word.lower()=ma word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ma word[-2:]=ma -1:word.lower()=ngħaqad +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ma +1:word.lower()=pietà O
+Pietà bias=1.0 word.lower()=pietà word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=età word[-2:]=tà -1:word.lower()=' +1:word.lower()=hotspurs B-ORG
+Hotspurs bias=1.0 word.lower()=hotspurs word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=urs word[-2:]=rs -1:word.lower()=pietà +1:word.lower()=. I-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=hotspurs EOS=True O
+
+Wara bias=1.0 word.lower()=wara word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ara word[-2:]=ra BOS=True +1:word.lower()=dan O
+dan bias=1.0 word.lower()=dan word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dan word[-2:]=an -1:word.lower()=wara +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=dan +1:word.lower()=il-kavallieri O
+il-Kavallieri bias=1.0 word.lower()=il-kavallieri word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=eri word[-2:]=ri -1:word.lower()=, +1:word.lower()=setgħet O
+setgħet bias=1.0 word.lower()=setgħet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħet word[-2:]=et -1:word.lower()=il-kavallieri +1:word.lower()=biss O
+biss bias=1.0 word.lower()=biss word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iss word[-2:]=ss -1:word.lower()=setgħet +1:word.lower()=tiġbor O
+tiġbor bias=1.0 word.lower()=tiġbor word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=bor word[-2:]=or -1:word.lower()=biss +1:word.lower()=punt O
+punt bias=1.0 word.lower()=punt word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=unt word[-2:]=nt -1:word.lower()=tiġbor +1:word.lower()=1 O
+1 bias=1.0 word.lower()=1 word.isupper()=False word.istitle()=False word.isdigit()=True word[-3:]=1 word[-2:]=1 -1:word.lower()=punt +1:word.lower()=minn O
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=1 +1:word.lower()=żewg O
+żewg bias=1.0 word.lower()=żewg word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ewg word[-2:]=wg -1:word.lower()=minn +1:word.lower()=logħbiet O
+logħbiet bias=1.0 word.lower()=logħbiet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iet word[-2:]=et -1:word.lower()=żewg +1:word.lower()=suċċessivi O
+suċċessivi bias=1.0 word.lower()=suċċessivi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ivi word[-2:]=vi -1:word.lower()=logħbiet +1:word.lower()=kontra O
+kontra bias=1.0 word.lower()=kontra word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tra word[-2:]=ra -1:word.lower()=suċċessivi +1:word.lower()=rivali O
+rivali bias=1.0 word.lower()=rivali word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ali word[-2:]=li -1:word.lower()=kontra +1:word.lower()=promossi O
+promossi bias=1.0 word.lower()=promossi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ssi word[-2:]=si -1:word.lower()=rivali +1:word.lower()=għaxaq O
+Għaxaq bias=1.0 word.lower()=għaxaq word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=xaq word[-2:]=aq -1:word.lower()=promossi +1:word.lower()=u B-ORG
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=għaxaq +1:word.lower()=st. O
+St. bias=1.0 word.lower()=st. word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=St. word[-2:]=t. -1:word.lower()=u +1:word.lower()=lucia B-ORG
+Lucia bias=1.0 word.lower()=lucia word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=cia word[-2:]=ia -1:word.lower()=st. +1:word.lower()=. I-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=lucia EOS=True O
+
+Sar bias=1.0 word.lower()=sar word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Sar word[-2:]=ar BOS=True +1:word.lower()=il-pavimentar O
+il-pavimentar bias=1.0 word.lower()=il-pavimentar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tar word[-2:]=ar -1:word.lower()=sar +1:word.lower()=ta’ O
+ta’ bias=1.0 word.lower()=ta’ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta’ word[-2:]=a’ -1:word.lower()=il-pavimentar +1:word.lower()=triq O
+Triq bias=1.0 word.lower()=triq word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=riq word[-2:]=iq -1:word.lower()=ta’ +1:word.lower()=ir-repubblika O
+ir-Repubblika bias=1.0 word.lower()=ir-repubblika word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ika word[-2:]=ka -1:word.lower()=triq +1:word.lower()=belt O
+Belt bias=1.0 word.lower()=belt word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=elt word[-2:]=lt -1:word.lower()=ir-repubblika +1:word.lower()=. B-LOC
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=belt EOS=True O
+
+Fil-karriera bias=1.0 word.lower()=fil-karriera word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=era word[-2:]=ra BOS=True +1:word.lower()=tiegħu O
+tiegħu bias=1.0 word.lower()=tiegħu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=għu word[-2:]=ħu -1:word.lower()=fil-karriera +1:word.lower()=bħala O
+bħala bias=1.0 word.lower()=bħala word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ala word[-2:]=la -1:word.lower()=tiegħu +1:word.lower()=pedjatra O
+pedjatra bias=1.0 word.lower()=pedjatra word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tra word[-2:]=ra -1:word.lower()=bħala +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=pedjatra +1:word.lower()=dr O
+Dr bias=1.0 word.lower()=dr word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Dr word[-2:]=Dr -1:word.lower()=, +1:word.lower()=đokanović O
+Đokanović bias=1.0 word.lower()=đokanović word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=vić word[-2:]=ić -1:word.lower()=dr +1:word.lower()=jaħdem O
+jaħdem bias=1.0 word.lower()=jaħdem word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dem word[-2:]=em -1:word.lower()=đokanović +1:word.lower()=fid-dipartiment O
+fid-Dipartiment bias=1.0 word.lower()=fid-dipartiment word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ent word[-2:]=nt -1:word.lower()=jaħdem +1:word.lower()=tal-ostetrika O
+tal-Ostetrika bias=1.0 word.lower()=tal-ostetrika word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ika word[-2:]=ka -1:word.lower()=fid-dipartiment +1:word.lower()=fiċ-ċentru O
+fiċ-Ċentru bias=1.0 word.lower()=fiċ-ċentru word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tru word[-2:]=ru -1:word.lower()=tal-ostetrika +1:word.lower()=kliniku O
+Kliniku bias=1.0 word.lower()=kliniku word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=iku word[-2:]=ku -1:word.lower()=fiċ-ċentru +1:word.lower()=tal-università O
+tal-Università bias=1.0 word.lower()=tal-università word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ità word[-2:]=tà -1:word.lower()=kliniku +1:word.lower()=ta’ O
+ta’ bias=1.0 word.lower()=ta’ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta’ word[-2:]=a’ -1:word.lower()=tal-università +1:word.lower()=sarajevo O
+Sarajevo bias=1.0 word.lower()=sarajevo word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=evo word[-2:]=vo -1:word.lower()=ta’ +1:word.lower()=. B-LOC
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=sarajevo EOS=True O
+
+Olivier bias=1.0 word.lower()=olivier word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ier word[-2:]=er BOS=True +1:word.lower()=deschacht B-PER
+Deschacht bias=1.0 word.lower()=deschacht word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=cht word[-2:]=ht -1:word.lower()=olivier +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=deschacht +1:word.lower()=2009–11 O
+2009–11 bias=1.0 word.lower()=2009–11 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=–11 word[-2:]=11 -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=2009–11 EOS=True O
+
+Iċ-ċampjins bias=1.0 word.lower()=iċ-ċampjins word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ins word[-2:]=ns BOS=True +1:word.lower()=minn O
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=iċ-ċampjins +1:word.lower()=san O
+San bias=1.0 word.lower()=san word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=San word[-2:]=an -1:word.lower()=minn +1:word.lower()=marino B-LOC
+Marino bias=1.0 word.lower()=marino word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ino word[-2:]=no -1:word.lower()=san +1:word.lower()=u I-LOC
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=marino +1:word.lower()=andorra O
+Andorra bias=1.0 word.lower()=andorra word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=rra word[-2:]=ra -1:word.lower()=u +1:word.lower()=jipparteċipaw B-LOC
+jipparteċipaw bias=1.0 word.lower()=jipparteċipaw word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=paw word[-2:]=aw -1:word.lower()=andorra +1:word.lower()=ukoll O
+ukoll bias=1.0 word.lower()=ukoll word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oll word[-2:]=ll -1:word.lower()=jipparteċipaw +1:word.lower()=minn O
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=ukoll +1:word.lower()=din O
+din bias=1.0 word.lower()=din word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=din word[-2:]=in -1:word.lower()=minn +1:word.lower()=is-sena O
+is-sena bias=1.0 word.lower()=is-sena word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ena word[-2:]=na -1:word.lower()=din +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=is-sena EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=jóhanna O
+Jóhanna bias=1.0 word.lower()=jóhanna word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nna word[-2:]=na -1:word.lower()=rindirizza +1:word.lower()=guðrún B-PER
+Guðrún bias=1.0 word.lower()=guðrún word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=rún word[-2:]=ún -1:word.lower()=jóhanna +1:word.lower()=jónsdóttir I-PER
+Jónsdóttir bias=1.0 word.lower()=jónsdóttir word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=tir word[-2:]=ir -1:word.lower()=guðrún EOS=True I-PER
+
+Pika bias=1.0 word.lower()=pika word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ika word[-2:]=ka BOS=True +1:word.lower()=ta B-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=pika +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=gaoligong I-LOC
+Gaoligong bias=1.0 word.lower()=gaoligong word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ong word[-2:]=ng -1:word.lower()=' EOS=True I-LOC
+
+il-pajjiż bias=1.0 word.lower()=il-pajjiż word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=jiż word[-2:]=iż BOS=True +1:word.lower()=ospitu O
+ospitu bias=1.0 word.lower()=ospitu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=itu word[-2:]=tu -1:word.lower()=il-pajjiż +1:word.lower()=serbja O
+Serbja bias=1.0 word.lower()=serbja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=bja word[-2:]=ja -1:word.lower()=ospitu +1:word.lower()=; B-LOC
+; bias=1.0 word.lower()=; word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=; word[-2:]=; -1:word.lower()=serbja EOS=True O
+
+Hemmhekk bias=1.0 word.lower()=hemmhekk word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ekk word[-2:]=kk BOS=True +1:word.lower()=kellu O
+kellu bias=1.0 word.lower()=kellu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=llu word[-2:]=lu -1:word.lower()=hemmhekk +1:word.lower()=konversazzjoni O
+konversazzjoni bias=1.0 word.lower()=konversazzjoni word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oni word[-2:]=ni -1:word.lower()=kellu +1:word.lower()=ma’ O
+ma’ bias=1.0 word.lower()=ma’ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ma’ word[-2:]=a’ -1:word.lower()=konversazzjoni +1:word.lower()=dr. O
+Dr. bias=1.0 word.lower()=dr. word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Dr. word[-2:]=r. -1:word.lower()=ma’ +1:word.lower()=alfred O
+Alfred bias=1.0 word.lower()=alfred word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=red word[-2:]=ed -1:word.lower()=dr. +1:word.lower()=sant B-PER
+Sant bias=1.0 word.lower()=sant word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ant word[-2:]=nt -1:word.lower()=alfred +1:word.lower()=, I-PER
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=sant +1:word.lower()=kollega O
+kollega bias=1.0 word.lower()=kollega word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ega word[-2:]=ga -1:word.lower()=, +1:word.lower()=ta’ O
+ta’ bias=1.0 word.lower()=ta’ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta’ word[-2:]=a’ -1:word.lower()=kollega +1:word.lower()=żmien O
+żmien bias=1.0 word.lower()=żmien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=ta’ +1:word.lower()=il-liċeo O
+il-Liċeo bias=1.0 word.lower()=il-liċeo word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ċeo word[-2:]=eo -1:word.lower()=żmien +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=il-liċeo +1:word.lower()=kittieb O
+kittieb bias=1.0 word.lower()=kittieb word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ieb word[-2:]=eb -1:word.lower()=u +1:word.lower()=ukoll O
+ukoll bias=1.0 word.lower()=ukoll word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oll word[-2:]=ll -1:word.lower()=kittieb +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=ukoll EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=opossum O
+Opossum bias=1.0 word.lower()=opossum word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sum word[-2:]=um -1:word.lower()=rindirizza +1:word.lower()=bugeddum B-LOC
+bugeddum bias=1.0 word.lower()=bugeddum word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dum word[-2:]=um -1:word.lower()=opossum +1:word.lower()=peruvjan I-LOC
+Peruvjan bias=1.0 word.lower()=peruvjan word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=jan word[-2:]=an -1:word.lower()=bugeddum EOS=True I-LOC
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=tim O
+Tim bias=1.0 word.lower()=tim word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Tim word[-2:]=im -1:word.lower()=rindirizza +1:word.lower()=nazzjonali B-ORG
+nazzjonali bias=1.0 word.lower()=nazzjonali word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ali word[-2:]=li -1:word.lower()=tim +1:word.lower()=tal-futbol I-ORG
+tal-futbol bias=1.0 word.lower()=tal-futbol word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=bol word[-2:]=ol -1:word.lower()=nazzjonali +1:word.lower()=ta I-ORG
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=tal-futbol +1:word.lower()=' I-ORG
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=spanja I-ORG
+Spanja bias=1.0 word.lower()=spanja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nja word[-2:]=ja -1:word.lower()=' EOS=True I-ORG
+
+Opossum bias=1.0 word.lower()=opossum word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=sum word[-2:]=um BOS=True +1:word.lower()=irqiq B-LOC
+irqiq bias=1.0 word.lower()=irqiq word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=qiq word[-2:]=iq -1:word.lower()=opossum +1:word.lower()=ta I-LOC
+ta bias=1.0 word.lower()=ta word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta word[-2:]=ta -1:word.lower()=irqiq +1:word.lower()=' I-LOC
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=ta +1:word.lower()=dorothy I-LOC
+Dorothy bias=1.0 word.lower()=dorothy word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=thy word[-2:]=hy -1:word.lower()=' EOS=True I-LOC
+
+Il-kampjonat bias=1.0 word.lower()=il-kampjonat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nat word[-2:]=at BOS=True +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=il-kampjonat +1:word.lower()=imwettaq O
+imwettaq bias=1.0 word.lower()=imwettaq word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=taq word[-2:]=aq -1:word.lower()=kien +1:word.lower()=fi O
+fi bias=1.0 word.lower()=fi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=fi word[-2:]=fi -1:word.lower()=imwettaq +1:word.lower()=8 O
+8 bias=1.0 word.lower()=8 word.isupper()=False word.istitle()=False word.isdigit()=True word[-3:]=8 word[-2:]=8 -1:word.lower()=fi +1:word.lower()=timijiet O
+timijiet bias=1.0 word.lower()=timijiet word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iet word[-2:]=et -1:word.lower()=8 +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=timijiet +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=, +1:word.lower()=hibernians O
+Hibernians bias=1.0 word.lower()=hibernians word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ans word[-2:]=ns -1:word.lower()=u +1:word.lower()=kienu B-ORG
+kienu bias=1.0 word.lower()=kienu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=enu word[-2:]=nu -1:word.lower()=hibernians +1:word.lower()=rebbieħa O
+rebbieħa bias=1.0 word.lower()=rebbieħa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=eħa word[-2:]=ħa -1:word.lower()=kienu +1:word.lower()=tal-kampjonat O
+tal-kampjonat bias=1.0 word.lower()=tal-kampjonat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nat word[-2:]=at -1:word.lower()=rebbieħa +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=tal-kampjonat EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=papa O
+Papa bias=1.0 word.lower()=papa word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=apa word[-2:]=pa -1:word.lower()=rindirizza +1:word.lower()=benedittu B-PER
+Benedittu bias=1.0 word.lower()=benedittu word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ttu word[-2:]=tu -1:word.lower()=papa +1:word.lower()=xvi I-PER
+XVI bias=1.0 word.lower()=xvi word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=XVI word[-2:]=VI -1:word.lower()=benedittu EOS=True I-PER
+
+Imma bias=1.0 word.lower()=imma word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=mma word[-2:]=ma BOS=True +1:word.lower()=allegatament O
+allegatament bias=1.0 word.lower()=allegatament word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ent word[-2:]=nt -1:word.lower()=imma +1:word.lower()=monsinjur O
+Monsinjur bias=1.0 word.lower()=monsinjur word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=jur word[-2:]=ur -1:word.lower()=allegatament +1:word.lower()=mikiel O
+Mikiel bias=1.0 word.lower()=mikiel word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=iel word[-2:]=el -1:word.lower()=monsinjur +1:word.lower()=gonzi B-PER
+Gonzi bias=1.0 word.lower()=gonzi word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nzi word[-2:]=zi -1:word.lower()=mikiel +1:word.lower()=kien I-PER
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=gonzi +1:word.lower()=instema O
+instema bias=1.0 word.lower()=instema word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ema word[-2:]=ma -1:word.lower()=kien +1:word.lower()=' O
+' bias=1.0 word.lower()=' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=' word[-2:]=' -1:word.lower()=instema +1:word.lower()=jgħid O
+jgħid bias=1.0 word.lower()=jgħid word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħid word[-2:]=id -1:word.lower()=' +1:word.lower()=li O
+li bias=1.0 word.lower()=li word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=li word[-2:]=li -1:word.lower()=jgħid +1:word.lower()=f'din O
+f'din bias=1.0 word.lower()=f'din word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=din word[-2:]=in -1:word.lower()=li +1:word.lower()=il-kariga O
+il-kariga bias=1.0 word.lower()=il-kariga word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=iga word[-2:]=ga -1:word.lower()=f'din +1:word.lower()=ried O
+ried bias=1.0 word.lower()=ried word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ied word[-2:]=ed -1:word.lower()=il-kariga +1:word.lower()=jaħtar O
+jaħtar bias=1.0 word.lower()=jaħtar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tar word[-2:]=ar -1:word.lower()=ried +1:word.lower()=qassis O
+qassis bias=1.0 word.lower()=qassis word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sis word[-2:]=is -1:word.lower()=jaħtar +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=qassis +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=, +1:word.lower()=mhux O
+mhux bias=1.0 word.lower()=mhux word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=hux word[-2:]=ux -1:word.lower()=u +1:word.lower()=patri O
+patri bias=1.0 word.lower()=patri word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tri word[-2:]=ri -1:word.lower()=mhux +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=patri EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=tim O
+Tim bias=1.0 word.lower()=tim word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Tim word[-2:]=im -1:word.lower()=rindirizza +1:word.lower()=nazzjonali B-ORG
+nazzjonali bias=1.0 word.lower()=nazzjonali word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ali word[-2:]=li -1:word.lower()=tim +1:word.lower()=tal-futbol I-ORG
+tal-futbol bias=1.0 word.lower()=tal-futbol word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=bol word[-2:]=ol -1:word.lower()=nazzjonali +1:word.lower()=tar-repubblika I-ORG
+tar-Repubblika bias=1.0 word.lower()=tar-repubblika word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ika word[-2:]=ka -1:word.lower()=tal-futbol +1:word.lower()=ċeka I-ORG
+Ċeka bias=1.0 word.lower()=ċeka word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=eka word[-2:]=ka -1:word.lower()=tar-repubblika EOS=True I-ORG
+
+“Vassalli bias=1.0 word.lower()=“vassalli word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=lli word[-2:]=li BOS=True +1:word.lower()=ddakkar O
+ddakkar bias=1.0 word.lower()=ddakkar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=kar word[-2:]=ar -1:word.lower()=“vassalli +1:word.lower()=mill-ispirtu O
+mill-ispirtu bias=1.0 word.lower()=mill-ispirtu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=rtu word[-2:]=tu -1:word.lower()=ddakkar +1:word.lower()=ta’ O
+ta’ bias=1.0 word.lower()=ta’ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ta’ word[-2:]=a’ -1:word.lower()=mill-ispirtu +1:word.lower()=żminijietu” O
+żminijietu” bias=1.0 word.lower()=żminijietu” word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tu” word[-2:]=u” -1:word.lower()=ta’ +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=żminijietu” +1:word.lower()=jgħid O
+jgħid bias=1.0 word.lower()=jgħid word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ħid word[-2:]=id -1:word.lower()=, +1:word.lower()=cremona O
+Cremona bias=1.0 word.lower()=cremona word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ona word[-2:]=na -1:word.lower()=jgħid +1:word.lower()=. B-PER
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=cremona EOS=True O
+
+''Bejn bias=1.0 word.lower()=''bejn word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ejn word[-2:]=jn BOS=True +1:word.lower()=l-1978 O
+l-1978 bias=1.0 word.lower()=l-1978 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=978 word[-2:]=78 -1:word.lower()=''bejn +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=l-1978 +1:word.lower()=l-1987 O
+l-1987 bias=1.0 word.lower()=l-1987 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=987 word[-2:]=87 -1:word.lower()=u +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=l-1987 +1:word.lower()=dom O
+Dom bias=1.0 word.lower()=dom word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Dom word[-2:]=om -1:word.lower()=, +1:word.lower()=mintoff B-PER
+Mintoff bias=1.0 word.lower()=mintoff word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=off word[-2:]=ff -1:word.lower()=dom +1:word.lower()=issospenda I-PER
+issospenda bias=1.0 word.lower()=issospenda word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nda word[-2:]=da -1:word.lower()=mintoff +1:word.lower()=l-katedra O
+l-katedra bias=1.0 word.lower()=l-katedra word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dra word[-2:]=ra -1:word.lower()=issospenda +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=l-katedra +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=. EOS=True O
+
+Ir-rebħ bias=1.0 word.lower()=ir-rebħ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ebħ word[-2:]=bħ BOS=True +1:word.lower()=tal-kampjonat O
+tal-kampjonat bias=1.0 word.lower()=tal-kampjonat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nat word[-2:]=at -1:word.lower()=ir-rebħ +1:word.lower()=fisser O
+fisser bias=1.0 word.lower()=fisser word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ser word[-2:]=er -1:word.lower()=tal-kampjonat +1:word.lower()=ukoll O
+ukoll bias=1.0 word.lower()=ukoll word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=oll word[-2:]=ll -1:word.lower()=fisser +1:word.lower()=it-tnax-il O
+it-tnax-il bias=1.0 word.lower()=it-tnax-il word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=-il word[-2:]=il -1:word.lower()=ukoll +1:word.lower()=titlu O
+titlu bias=1.0 word.lower()=titlu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tlu word[-2:]=lu -1:word.lower()=it-tnax-il +1:word.lower()=għall-kowċ O
+għall-kowċ bias=1.0 word.lower()=għall-kowċ word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=owċ word[-2:]=wċ -1:word.lower()=titlu +1:word.lower()=sir O
+Sir bias=1.0 word.lower()=sir word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Sir word[-2:]=ir -1:word.lower()=għall-kowċ +1:word.lower()=alex B-PER
+Alex bias=1.0 word.lower()=alex word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=lex word[-2:]=ex -1:word.lower()=sir +1:word.lower()=ferguson I-PER
+Ferguson bias=1.0 word.lower()=ferguson word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=son word[-2:]=on -1:word.lower()=alex +1:word.lower()=. I-PER
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=ferguson EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=premier O
+Premier bias=1.0 word.lower()=premier word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ier word[-2:]=er -1:word.lower()=rindirizza +1:word.lower()=league B-LOC
+League bias=1.0 word.lower()=league word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=gue word[-2:]=ue -1:word.lower()=premier +1:word.lower()=2008–09 I-LOC
+2008–09 bias=1.0 word.lower()=2008–09 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=–09 word[-2:]=09 -1:word.lower()=league EOS=True I-LOC
+
+Madanakollu bias=1.0 word.lower()=madanakollu word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=llu word[-2:]=lu BOS=True +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=madanakollu +1:word.lower()=il-united O
+il-United bias=1.0 word.lower()=il-united word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ted word[-2:]=ed -1:word.lower()=, +1:word.lower()=irkupraw O
+irkupraw bias=1.0 word.lower()=irkupraw word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=raw word[-2:]=aw -1:word.lower()=il-united +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=irkupraw +1:word.lower()=bdew O
+bdew bias=1.0 word.lower()=bdew word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dew word[-2:]=ew -1:word.lower()=u +1:word.lower()=il-ġlieda O
+il-ġlieda bias=1.0 word.lower()=il-ġlieda word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=eda word[-2:]=da -1:word.lower()=bdew +1:word.lower()=għat-titlu O
+għat-titlu bias=1.0 word.lower()=għat-titlu word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tlu word[-2:]=lu -1:word.lower()=il-ġlieda +1:word.lower()=arsenal O
+Arsenal bias=1.0 word.lower()=arsenal word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nal word[-2:]=al -1:word.lower()=għat-titlu +1:word.lower()=. B-ORG
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=arsenal EOS=True O
+
+Il-protagonist bias=1.0 word.lower()=il-protagonist word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ist word[-2:]=st BOS=True +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=il-protagonist +1:word.lower()=piscine O
+Piscine bias=1.0 word.lower()=piscine word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ine word[-2:]=ne -1:word.lower()=, +1:word.lower()=molitor O
+Molitor bias=1.0 word.lower()=molitor word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=tor word[-2:]=or -1:word.lower()=piscine +1:word.lower()=`` O
+`` bias=1.0 word.lower()=`` word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=`` word[-2:]=`` -1:word.lower()=molitor +1:word.lower()=pi O
+Pi bias=1.0 word.lower()=pi word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Pi word[-2:]=Pi -1:word.lower()=`` +1:word.lower()='' O
+'' bias=1.0 word.lower()='' word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]='' word[-2:]='' -1:word.lower()=pi +1:word.lower()=patel O
+Patel bias=1.0 word.lower()=patel word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=tel word[-2:]=el -1:word.lower()='' +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=patel +1:word.lower()=tifel O
+tifel bias=1.0 word.lower()=tifel word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=fel word[-2:]=el -1:word.lower()=, +1:word.lower()=indjan O
+Indjan bias=1.0 word.lower()=indjan word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=jan word[-2:]=an -1:word.lower()=tifel +1:word.lower()=minn B-LOC
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=indjan +1:word.lower()=pondicherry O
+Pondicherry bias=1.0 word.lower()=pondicherry word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=rry word[-2:]=ry -1:word.lower()=minn +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=pondicherry +1:word.lower()=jesplora O
+jesplora bias=1.0 word.lower()=jesplora word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ora word[-2:]=ra -1:word.lower()=, +1:word.lower()=t-temi O
+t-temi bias=1.0 word.lower()=t-temi word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=emi word[-2:]=mi -1:word.lower()=jesplora +1:word.lower()=tal-ispiritwalità O
+tal-ispiritwalità bias=1.0 word.lower()=tal-ispiritwalità word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ità word[-2:]=tà -1:word.lower()=t-temi +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=tal-ispiritwalità +1:word.lower()=tal-prattiċità O
+tal-prattiċità bias=1.0 word.lower()=tal-prattiċità word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ità word[-2:]=tà -1:word.lower()=u +1:word.lower()=minn O
+minn bias=1.0 word.lower()=minn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=inn word[-2:]=nn -1:word.lower()=tal-prattiċità +1:word.lower()=età O
+età bias=1.0 word.lower()=età word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=età word[-2:]=tà -1:word.lower()=minn +1:word.lower()=bikrija O
+bikrija bias=1.0 word.lower()=bikrija word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ija word[-2:]=ja -1:word.lower()=età +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=bikrija EOS=True O
+
+Edwin bias=1.0 word.lower()=edwin word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=win word[-2:]=in BOS=True +1:word.lower()=van B-PER
+van bias=1.0 word.lower()=van word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=van word[-2:]=an -1:word.lower()=edwin +1:word.lower()=der I-PER
+der bias=1.0 word.lower()=der word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=der word[-2:]=er -1:word.lower()=van +1:word.lower()=sar I-PER
+Sar bias=1.0 word.lower()=sar word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Sar word[-2:]=ar -1:word.lower()=der EOS=True I-PER
+
+West bias=1.0 word.lower()=west word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=est word[-2:]=st BOS=True +1:word.lower()=asian B-ORG
+Asian bias=1.0 word.lower()=asian word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ian word[-2:]=an -1:word.lower()=west +1:word.lower()=football I-ORG
+Football bias=1.0 word.lower()=football word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=all word[-2:]=ll -1:word.lower()=asian +1:word.lower()=federation I-ORG
+Federation bias=1.0 word.lower()=federation word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ion word[-2:]=on -1:word.lower()=football +1:word.lower()=( I-ORG
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=federation +1:word.lower()=waff O
+WAFF bias=1.0 word.lower()=waff word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=AFF word[-2:]=FF -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=waff EOS=True O
+
+RINDIRIZZA bias=1.0 word.lower()=rindirizza word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=ZZA word[-2:]=ZA BOS=True +1:word.lower()=tarxien O
+Tarxien bias=1.0 word.lower()=tarxien word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=rindirizza +1:word.lower()=rainbows B-ORG
+Rainbows bias=1.0 word.lower()=rainbows word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ows word[-2:]=ws -1:word.lower()=tarxien +1:word.lower()=fc I-ORG
+FC bias=1.0 word.lower()=fc word.isupper()=True word.istitle()=False word.isdigit()=False word[-3:]=FC word[-2:]=FC -1:word.lower()=rainbows EOS=True I-ORG
+
+Mario bias=1.0 word.lower()=mario word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=rio word[-2:]=io BOS=True +1:word.lower()=notaro B-PER
+Notaro bias=1.0 word.lower()=notaro word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=aro word[-2:]=ro -1:word.lower()=mario +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=notaro +1:word.lower()=mar O
+Mar bias=1.0 word.lower()=mar word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Mar word[-2:]=ar -1:word.lower()=( +1:word.lower()=2013–apr O
+2013–Apr bias=1.0 word.lower()=2013–apr word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Apr word[-2:]=pr -1:word.lower()=mar +1:word.lower()=13 O
+13 bias=1.0 word.lower()=13 word.isupper()=False word.istitle()=False word.isdigit()=True word[-3:]=13 word[-2:]=13 -1:word.lower()=2013–apr +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=13 EOS=True O
+
+Francky bias=1.0 word.lower()=francky word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=cky word[-2:]=ky BOS=True +1:word.lower()=dury B-PER
+Dury bias=1.0 word.lower()=dury word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ury word[-2:]=ry -1:word.lower()=francky +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=dury +1:word.lower()=diċ O
+Diċ bias=1.0 word.lower()=diċ word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=Diċ word[-2:]=iċ -1:word.lower()=( +1:word.lower()=2011– O
+2011– bias=1.0 word.lower()=2011– word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=11– word[-2:]=1– -1:word.lower()=diċ +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=2011– EOS=True O
+
+Lino bias=1.0 word.lower()=lino word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ino word[-2:]=no BOS=True +1:word.lower()=grech B-PER
+Grech bias=1.0 word.lower()=grech word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=ech word[-2:]=ch -1:word.lower()=lino +1:word.lower()=( I-PER
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( -1:word.lower()=grech +1:word.lower()=1930–2013 O
+1930–2013 bias=1.0 word.lower()=1930–2013 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=013 word[-2:]=13 -1:word.lower()=( +1:word.lower()=) O
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=1930–2013 +1:word.lower()=— O
+— bias=1.0 word.lower()=— word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=— word[-2:]=— -1:word.lower()=) +1:word.lower()=attur O
+attur bias=1.0 word.lower()=attur word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tur word[-2:]=ur -1:word.lower()=— +1:word.lower()=u O
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=attur +1:word.lower()=direttur O
+direttur bias=1.0 word.lower()=direttur word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=tur word[-2:]=ur -1:word.lower()=u EOS=True O
+
+kampjonat bias=1.0 word.lower()=kampjonat word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=nat word[-2:]=at BOS=True +1:word.lower()=tal-2008 B-ORG
+tal-2008 bias=1.0 word.lower()=tal-2008 word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=008 word[-2:]=08 -1:word.lower()=kampjonat +1:word.lower()=, I-ORG
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=tal-2008 +1:word.lower()=it-trofew O
+it-trofew bias=1.0 word.lower()=it-trofew word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=few word[-2:]=ew -1:word.lower()=, +1:word.lower()=kien O
+kien bias=1.0 word.lower()=kien word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ien word[-2:]=en -1:word.lower()=it-trofew +1:word.lower()=daqxejn O
+daqxejn bias=1.0 word.lower()=daqxejn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ejn word[-2:]=jn -1:word.lower()=kien +1:word.lower()=mibdul O
+mibdul bias=1.0 word.lower()=mibdul word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=dul word[-2:]=ul -1:word.lower()=daqxejn +1:word.lower()=, O
+, bias=1.0 word.lower()=, word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=, word[-2:]=, -1:word.lower()=mibdul +1:word.lower()=hekk O
+hekk bias=1.0 word.lower()=hekk word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ekk word[-2:]=kk -1:word.lower()=, +1:word.lower()=kif O
+kif bias=1.0 word.lower()=kif word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=kif word[-2:]=if -1:word.lower()=hekk +1:word.lower()=issa O
+issa bias=1.0 word.lower()=issa word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ssa word[-2:]=sa -1:word.lower()=kif +1:word.lower()=sar O
+sar bias=1.0 word.lower()=sar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=sar word[-2:]=ar -1:word.lower()=issa +1:word.lower()=ikbar O
+ikbar bias=1.0 word.lower()=ikbar word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=bar word[-2:]=ar -1:word.lower()=sar +1:word.lower()=. O
+. bias=1.0 word.lower()=. word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=. word[-2:]=. -1:word.lower()=ikbar EOS=True O
+
+( bias=1.0 word.lower()=( word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=( word[-2:]=( BOS=True +1:word.lower()=bejn O
+bejn bias=1.0 word.lower()=bejn word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=ejn word[-2:]=jn -1:word.lower()=( +1:word.lower()=franza O
+Franza bias=1.0 word.lower()=franza word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nza word[-2:]=za -1:word.lower()=bejn +1:word.lower()=u B-LOC
+u bias=1.0 word.lower()=u word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=u word[-2:]=u -1:word.lower()=franza +1:word.lower()=spanja O
+Spanja bias=1.0 word.lower()=spanja word.isupper()=False word.istitle()=True word.isdigit()=False word[-3:]=nja word[-2:]=ja -1:word.lower()=u +1:word.lower()=) B-LOC
+) bias=1.0 word.lower()=) word.isupper()=False word.istitle()=False word.isdigit()=False word[-3:]=) word[-2:]=) -1:word.lower()=spanja EOS=True O
+
