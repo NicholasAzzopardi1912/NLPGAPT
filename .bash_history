@@ -126,3 +126,5 @@ code .
 ls
 cd
 code .
+/home/nicho/miniconda3/bin/python /home/nicho/crf.py
+/usr/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt

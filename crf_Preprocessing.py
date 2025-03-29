@@ -1,4 +1,5 @@
 from datasets import load_dataset
+import pickle
 
 dataset = load_dataset("unimelb-nlp/wikiann", "mt")
 
@@ -71,6 +72,24 @@ with open("ner_as_crf_validset.txt", "w") as f:
             f.write(f"{word} {feature_str} {label}\n")
         f.write("\n")
 
+
+# Converting test dataset to be applicable for crf
+crf_testset = convert_wikiann_to_crf(dataset["test"])
+
+# Saving the test set in a text file
+with open("ner_as_crf_testset.txt", "w") as f:
+    for sent in crf_testset:
+        for word, features, label in sent:
+            feature_str = " ".join([f"{k}={v}" for k, v in features.items()])
+            f.write(f"{word} {feature_str} {label}\n")
+        f.write("\n")
+
+
+# Saving the preprocessed data to pickle files
+with open("ner_as_crf_trainset.pkl", "wb") as f:
+    pickle.dump(crf_trainset, f)
+with open("ner_as_crf_testset.pkl", "wb") as f:
+    pickle.dump(crf_testset, f)
 
 
 
