@@ -128,3 +128,9 @@ cd
 code .
 /home/nicho/miniconda3/bin/python /home/nicho/crf.py
 /usr/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+pip install python-crfsuite
+/home/nicho/miniconda3/bin/python /home/nicho/crf_Preprocessing.py
+/home/nicho/miniconda3/bin/python /home/nicho/crf_model.py
+/home/nicho/miniconda3/bin/python /home/nicho/crf_Preprocessing.py
+/home/nicho/miniconda3/bin/python /home/nicho/crf_model.py
+/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
