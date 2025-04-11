@@ -134,3 +134,16 @@ pip install python-crfsuite
 /home/nicho/miniconda3/bin/python /home/nicho/crf_Preprocessing.py
 /home/nicho/miniconda3/bin/python /home/nicho/crf_model.py
 /bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+python3 -m pip install 'tensorflow[and-cuda]'
+pip install tensorflow
+/home/nicho/miniconda3/bin/python /home/nicho/svm_Preprocessing.py
+/home/nicho/miniconda3/bin/python /home/nicho/svm_training.py
+/home/nicho/miniconda3/bin/python /home/nicho/svm_Preprocessing.py
+/home/nicho/miniconda3/bin/python /home/nicho/SVM_PreProc_AND_Model.py
+/home/nicho/miniconda3/bin/python /home/nicho/crf_model.py
+/home/nicho/miniconda3/bin/python /home/nicho/SVM_PreProc_AND_Model.py
+pip install nltk
+/home/nicho/miniconda3/bin/python /home/nicho/SVM_PreProc_AND_Model.py
+/usr/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+cd
+code .
