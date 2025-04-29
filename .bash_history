@@ -151,3 +151,10 @@ code .
 /home/nicho/miniconda3/bin/python /home/nicho/SVM_PreProc_AND_Model.py
 /home/nicho/miniconda3/bin/python /home/nicho/CRF_for_mapa_maltese.py
 /usr/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+/home/nicho/miniconda3/bin/python /home/nicho/SVM_for_mapa_maltese.py
+/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+/home/nicho/allennlp_env/bin/python /home/nicho/CRF_for_mapa_maltese.py
+pip install datasets
+pip install --upgrade pip
+/usr/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+/home/nicho/allennlp_env/bin/python /home/nicho/CRF_for_mapa_maltese.py

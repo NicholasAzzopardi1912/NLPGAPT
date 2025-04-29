@@ -48,7 +48,7 @@ def convert_to_crf_format(dataset_split):
 
     for item in dataset_split:
         tokens = item["tokens"]
-        labels = item["level1_tags"]  # <--- using only level1 tags here
+        labels = item["level1_tags"]
         sentence = [(tokens[i], extract_features(tokens, i), labels[i]) for i in range(len(tokens))]
         crf_data.append(sentence)
 
