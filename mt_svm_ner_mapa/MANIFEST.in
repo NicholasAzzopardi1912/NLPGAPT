@@ -1,0 +1,2 @@
+include mt_svm_ner_mapa/svm_for_mapa_model.pkl
+include meta.json

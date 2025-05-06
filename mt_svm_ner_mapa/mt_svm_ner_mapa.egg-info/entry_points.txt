@@ -1,0 +1,2 @@
+[spacy_factories]
+svm_ner_mapa = mt_svm_ner_mapa.SVM_NER_MAPA:create_svm_ner_mapa

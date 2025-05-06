@@ -1,0 +1,2 @@
+include mt_crf_ner_mapa/crf_for_mapa_model.pkl
+include meta.json

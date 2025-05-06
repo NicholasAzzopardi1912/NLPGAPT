@@ -1,5 +1,5 @@
 import spacy
-import CRF_NER_MAPA
+import  CRF_NER_MAPA
 
 # Creating a blank Maltese pipeline
 nlp = spacy.blank("xx")

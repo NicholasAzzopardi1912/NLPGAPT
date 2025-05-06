@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: mt_crf_ner_mapa
+Version: 1.0.0
+Summary: CRF-based NER for Maltese integrated with spaCy
+Author: Nicholas Azzopardi, Jamie Bugeja, Matthew Borg Barthet
+Author-email: nicholas.azzopardi.23@um.edu.mt, jamie.bugeja.23@um.edu.mt, matthew.borg-barthet.23@um.edu.mt
+Requires-Dist: spacy>=3.0.0
+Requires-Dist: scikit-learn
+Requires-Dist: sklearn-crfsuite
+Requires-Dist: datasets
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary

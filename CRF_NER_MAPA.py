@@ -3,6 +3,8 @@ from spacy.tokens import Span
 import spacy
 from spacy.language import Language
 
+print(">>> Using local CRF_NER_MAPA.py <<<")
+
 class CRFEntityRecogniser:
     def __init__(self, model_path="crf_for_mapa_model.pkl"):
         # Loading the pickle file containing the trained CRF model

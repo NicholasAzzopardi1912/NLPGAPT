@@ -1,0 +1,1 @@
+from .CRF_NER_MAPA import create_crf_ner_mapa

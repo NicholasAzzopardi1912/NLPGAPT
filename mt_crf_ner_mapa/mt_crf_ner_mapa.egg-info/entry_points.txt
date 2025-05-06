@@ -1,0 +1,2 @@
+[spacy_factories]
+crf_ner_mapa = mt_crf_ner_mapa.CRF_NER_MAPA:create_crf_ner_mapa

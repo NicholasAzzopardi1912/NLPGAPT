@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+meta.json
+setup.py
+mt_crf_ner_mapa/CRF_NER_MAPA.py
+mt_crf_ner_mapa/__init__.py
+mt_crf_ner_mapa/crf_for_mapa_model.pkl
+mt_crf_ner_mapa.egg-info/PKG-INFO
+mt_crf_ner_mapa.egg-info/SOURCES.txt
+mt_crf_ner_mapa.egg-info/dependency_links.txt
+mt_crf_ner_mapa.egg-info/entry_points.txt
+mt_crf_ner_mapa.egg-info/requires.txt
+mt_crf_ner_mapa.egg-info/top_level.txt

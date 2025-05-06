@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+meta.json
+setup.py
+mt_svm_ner_mapa/SVM_NER_MAPA.py
+mt_svm_ner_mapa/__init__.py
+mt_svm_ner_mapa/svm_for_mapa_model.pkl
+mt_svm_ner_mapa.egg-info/PKG-INFO
+mt_svm_ner_mapa.egg-info/SOURCES.txt
+mt_svm_ner_mapa.egg-info/dependency_links.txt
+mt_svm_ner_mapa.egg-info/entry_points.txt
+mt_svm_ner_mapa.egg-info/requires.txt
+mt_svm_ner_mapa.egg-info/top_level.txt

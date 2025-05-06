@@ -2,10 +2,13 @@ import pickle
 from spacy.tokens import Span
 import spacy
 from spacy.language import Language
+import os
+
 
 class SVMEntityRecogniser:
     def __init__(self, model_path="svm_for_mapa_model.pkl"):
-        # Load the pickled SVM pipeline
+        if model_path is None:
+            model_path = os.path.join(os.path.dirname(__file__), "svm_for_mapa_model.pkl")
         with open(model_path, "rb") as f:
             self.model = pickle.load(f)
 

@@ -158,3 +158,35 @@ pip install datasets
 pip install --upgrade pip
 /usr/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
 /home/nicho/allennlp_env/bin/python /home/nicho/CRF_for_mapa_maltese.py
+pip install sklearn_crfsuite
+/home/nicho/allennlp_env/bin/python /home/nicho/CRF_for_mapa_maltese.py
+/home/nicho/allennlp_env/bin/python /home/nicho/SVM_for_mapa_maltese.py
+pip install spacy.tokens
+pip install spacy
+/home/nicho/allennlp_env/bin/python /home/nicho/CRF_NER_MAPA.py
+/home/nicho/allennlp_env/bin/python /home/nicho/testing_crf_mapa_pipeline.py
+/home/nicho/allennlp_env/bin/python /home/nicho/CRF_NER_MAPA.py
+/home/nicho/allennlp_env/bin/python /home/nicho/CRF_Pipeline.py
+/home/nicho/allennlp_env/bin/python /home/nicho/testing_crf_mapa_pipeline.py
+/home/nicho/allennlp_env/bin/python /home/nicho/CRF_for_mapa_maltese.py
+/home/nicho/allennlp_env/bin/python /home/nicho/CRF_NER_MAPA.py
+/home/nicho/allennlp_env/bin/python /home/nicho/CRF_Pipeline.py
+/home/nicho/allennlp_env/bin/python /home/nicho/testing_crf_mapa_pipeline.py
+/home/nicho/allennlp_env/bin/python /home/nicho/SVM_NER_MAPA.py
+/home/nicho/allennlp_env/bin/python /home/nicho/SVM_Pipeline.py
+/home/nicho/allennlp_env/bin/python /home/nicho/testing_svm_mapa_pipeline.py
+/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+cd
+code .
+cd NLPGAPT
+ls -l
+code .
+/usr/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ls
+NLPGAPT
+ls -l
+code .
+nlpgapt
+ls
+ls -l
+cd

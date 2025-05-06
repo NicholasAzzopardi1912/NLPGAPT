@@ -1,0 +1,21 @@
+{
+    "lang": "xx",
+    "name": "crf_ner_mapa",
+    "version": "1.0.0",
+    "description": "CRF-based Named Entity Recognition (NER) component for the Maltese language, trained on the MLRS MAPA dataset.",
+    "author": "Nicholas Azzopardi, Jamie Bugeja, Matthew Borg Barthet",
+    "email": "nicholas.azzopardi.23@um.edu.mt, jamie.bugeja.23@um.edu.mt, matthew.borg-barthet.23@um.edu.mt",
+    "license": "cc-by-4.0",
+    "url": "https://huggingface.co/datasets/MLRS/mapa_maltese",
+    "pipeline": ["crf_ner_mapa"],
+    "spacy_version": ">=3.0.0",
+    "components": [
+      {
+        "name": "crf_ner_mapa",
+        "source": "mt_crf_ner_mapa.CRF_NER_MAPA.create_crf_ner_mapa",
+        "assigns": ["doc.ents"],
+        "requires": ["token.text"]
+      }
+    ]
+  }
+  

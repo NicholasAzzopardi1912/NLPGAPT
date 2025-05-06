@@ -1,13 +1,17 @@
 import spacy
-import SVM_NER_MAPA
+import mt_svm_ner_mapa
+import mt_svm_ner_mapa.SVM_NER_MAPA as svm_mod
 
-# Loading the saved SVM NER pipeline
-nlp = spacy.load("./mt_SVM_NER_MAPA")
+# Confirming that the test is correctly using the SVM_NER_MAPA module from inside the mt_svm_ner_mapa package
+print(">>> USING FILE:", svm_mod.__file__)
 
-# Test with a sample sentence
+nlp = spacy.blank("xx")
+nlp.add_pipe("svm_ner_mapa")
+
+# Run a test sentence
 doc = nlp("Maria kienet il-Prim Ministru ta' Malta.")
 
-# Printing found entities
+# Print entities
 if doc.ents:
     for ent in doc.ents:
         print(ent.text, ent.label_)
