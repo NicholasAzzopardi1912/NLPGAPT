@@ -190,3 +190,24 @@ nlpgapt
 ls
 ls -l
 cd
+python setup.py sdist bdist_wheel
+pip install --upgrade pip
+pip install dist/mt_crf_ner_mapa-1.0.0-py3-none-any.whl
+/home/nicho/allennlp_env/bin/python /home/nicho/testing_crf_mapa_pipeline.py
+/home/nicho/allennlp_env/bin/python /home/nicho/mt_crf_ner_mapa/mt_crf_ner_mapa/CRF_NER_MAPA.py
+/home/nicho/allennlp_env/bin/python /home/nicho/testing_crf_mapa_pipeline.py
+pip install mt_svm_ner_mapa-1.0.0-py3-none-any.whl
+/home/nicho/allennlp_env/bin/python /home/nicho/testing_svm_mapa_pipeline.py
+python setup.py sdist bdist_wheel
+/home/nicho/allennlp_env/bin/python /home/nicho/testing_svm_mapa_pipeline.py
+python setup.py sdist bdist_wheel
+pip install dist/mt_svm_ner_mapa-1.0.0-py3-none-any.whl
+pip install --force-reinstall dist/mt_svm_ner_mapa-1.0.0-py3-none-any.whl
+python setup.py sdist bdist_wheel
+pip install --force-reinstall dist/mt_crf_ner_mapa-1.0.0-py3-none-any.whl
+python setup.py sdist bdist_wheel
+pip install --force-reinstall dist/mt_svm_ner_mapa-1.0.0-py3-none-any.whl
+python setup.py sdist bdist_wheel
+pip install --force-reinstall dist/mt_svm_ner_mapa-1.0.0-py3-none-any.whl
+/bin/python /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/nicho/.vscode-server/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+code .

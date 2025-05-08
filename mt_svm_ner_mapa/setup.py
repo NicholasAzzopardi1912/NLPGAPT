@@ -9,11 +9,13 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "spacy>=3.0.0",
-        "scikit-learn",
+        "spacy>=3.8.5",
+        "scikit-learn==1.6.1",
+        "numpy==2.2.5",
         "sklearn-crfsuite",
         "datasets"
     ],
+    python_requires="==3.12.9",
     entry_points={
         "spacy_factories": [
             "svm_ner_mapa = mt_svm_ner_mapa.SVM_NER_MAPA:create_svm_ner_mapa"
