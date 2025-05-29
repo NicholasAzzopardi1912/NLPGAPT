@@ -1,15 +1,13 @@
 from datasets import load_dataset
-from sklearn.svm import SVC
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.metrics import classification_report
 from sklearn.feature_extraction import DictVectorizer
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+import pickle
 
+# Load the WikiANN dataset (Maltese)
 dataset = load_dataset("unimelb-nlp/wikiann", "mt")
 
 # Function to extract features for a token
 def word2features(sent, i):
-
-    # Extracting features for the current word in the sentence
     word = sent[i]
     features = {
         'bias': 1.0,
@@ -20,7 +18,8 @@ def word2features(sent, i):
         'word[-3:]': word[-3:],
         'word[-2:]': word[-2:],
     }
-    # Applying features from the previous word 
+
+    # Previous word features
     if i > 0:
         prev = sent[i-1]
         features.update({
@@ -29,9 +28,9 @@ def word2features(sent, i):
             '-1:word.isupper()': prev.isupper(),
         })
     else:
-        features['BOS'] = True  # Speacial case for beginning of sentence
+        features['BOS'] = True  # Beginning of sentence
 
-    # Adding features from the next word
+    # Next word features
     if i < len(sent) - 1:
         nxt = sent[i+1]
         features.update({
@@ -40,39 +39,34 @@ def word2features(sent, i):
             '+1:word.isupper()': nxt.isupper(),
         })
     else:
-        features['EOS'] = True  # Speacial case for end of sentence
+        features['EOS'] = True  # End of sentence
 
     return features
 
-def convert_dataset_to_svm(dataset):
-    
-    # Lists storing all feature dictionaries and corresponding NER labels
+def convert_dataset_to_svm(dataset_split):
+    """Convert HuggingFace dataset split to SVM-ready format."""
     X = []
     y = []
-
-    # For each sentence in the dataset, convert each token into a feature dictionary and pair with its corresponding label
-    for example in dataset:
+    for example in dataset_split:
         tokens = example["tokens"]
         labels = example["ner_tags"]
-
         for i in range(len(tokens)):
             features = word2features(tokens, i)
             X.append(features)
             y.append(labels[i])
-
     return X, y
 
-# Preprocessing is applied to the train and test sets to a sutiable format for SVM
+# --- Preprocess train and test data ---
+
 X_train_dict, y_train = convert_dataset_to_svm(dataset["train"])
 X_test_dict, y_test = convert_dataset_to_svm(dataset["test"])
 
-# Vectorising the feature dictionaries into a numerical format
+# Vectorize feature dicts
 vectorizer = DictVectorizer(sparse=False)
 X_train = vectorizer.fit_transform(X_train_dict)
 X_test = vectorizer.transform(X_test_dict)
 
-
-# Scale features
+# Standard scale features
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
@@ -82,13 +76,14 @@ label_encoder = LabelEncoder()
 y_train_encoded = label_encoder.fit_transform(y_train)
 y_test_encoded = label_encoder.transform(y_test)
 
-#Train the SVM model
-svm_model = SVC(kernel="linear", class_weight="balanced")
-svm_model.fit(X_train_scaled, y_train_encoded)
-
-#Predict and evaluate
-y_pred = svm_model.predict(X_test_scaled)
-target_names = [str(cls) for cls in label_encoder.classes_]
-
-print("\nTest Set Performance:")
-print(classification_report(y_test_encoded, y_pred, target_names = target_names, zero_division=0))
+# --- Save preprocessed data for use in the model script ---
+with open("svm_preprocessed.pkl", "wb") as f:
+    pickle.dump({
+        "X_train": X_train_scaled,
+        "X_test": X_test_scaled,
+        "y_train": y_train_encoded,
+        "y_test": y_test_encoded,
+        "vectorizer": vectorizer,
+        "scaler": scaler,
+        "label_encoder": label_encoder,
+    }, f)
