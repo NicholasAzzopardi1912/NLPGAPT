@@ -10,6 +10,7 @@ Packaging Process:
   The Folder mt_svm_ner_mapa consists of the files required to package the svm MAPA model into installable files for the user
 
 
+
 Pipeline and Package Testing:
 
 
@@ -17,6 +18,7 @@ Pipeline and Package Testing:
 
   
   testing_svm_mapa_pipeline.py file was used to test the pipeline and packaging process for SVM
+
 
 
 Wikiann Models:
@@ -32,6 +34,8 @@ The CRF Model is made up of multiple files:
   crf_model.py uses the ner_as_crf_trainset.pkl and ner_as_crf_testset.pkl pickle files to then train and test the model
     These results are then stored in the crf_model.pkl
 
+
+
 The SVM Model is made up of multiple files:
 
 
@@ -41,6 +45,7 @@ The SVM Model is made up of multiple files:
       
   svm_Model.py uses the svm_preprocessed.pkl file to then train and test the model
     These results are then stored in the svm_model.pkl
+
 
 
 MAPA Models:
@@ -55,6 +60,7 @@ The CRF Model along with the construction of the pipeline is made up of the foll
     
   CRF_NER_MAPA.py takes the results stored in crf_for_mapa_model.pkl, and extracts the results for the found entities in 'doc'
   That python file is then imported by CRF_Pipeline.py where the pipeline is created and stored on disk
+
 
 
 The SVM Model along with the construction of the pipeline is made up of the following:
