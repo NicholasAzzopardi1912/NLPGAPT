@@ -17,8 +17,11 @@ The CRF Model is made up of multiple files:
     crf_model.py uses the ner_as_crf_trainset.pkl and ner_as_crf_testset.pkl pickle files to then train and test the model
       These results are then stored in the crf_model.pkl
 
-The SVM Model is made up of a single file:
-  SVM_PreProc_AND_Model.py consists of the preprocessing and training for the SVM wikiann model
+The SVM Model is made up of multiple files:
+    svm_Preprocessing.py contains the preprocessing performed on the wikiann dataset for SVM and saves the preprocessed data to
+      svm_preprocessed.pkl
+    svm_Model.py uses the svm_preprocessed.pkl file to then train and test the model
+      These results are then stored in the svm_model.pkl
 
 
 MAPA Models:
